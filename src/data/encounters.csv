@@ -22,3 +22,548 @@ Cerulean City,goldeen,False,False,True,Fishing Super Rod,"25, 30",70%
 Cerulean City,seaking,False,False,True,Fishing Super Rod,"30, 40",30%
 Cerulean City,bulbasaur,False,False,True,Gift,10,One
 Cerulean City,jynx,True,True,False,Trade Poliwhirl,The same as the Traded Pokémon,One
+Vermilion City,squirtle,False,False,True,Gift,10,One
+Vermilion City,farfetchd,True,True,False,Trade Spearow,The same as the Traded Pokémon,One
+Vermilion City,magikarp,True,True,True,Fishing Old Rod,5,100%
+Vermilion City,poliwag,True,True,True,Fishing Good Rod,10,50%
+Vermilion City,goldeen,True,True,True,Fishing Good Rod,10,50%
+Vermilion City,tentacool,False,False,True,Fishing Super Rod,"10, 15, 20",90%
+Vermilion City,shellder,True,True,False,Fishing Super Rod,15,50%
+Vermilion City,krabby,True,True,False,Fishing Super Rod,15,50%
+Vermilion City,horsea,False,False,True,Fishing Super Rod,5,10%
+Celadon City,magikarp,True,True,True,Fishing Old Rod,5,100%
+Celadon City,poliwag,True,True,True,Fishing Good Rod,10,50%
+Celadon City,goldeen,True,True,True,Fishing Good Rod,10,50%
+Celadon City,poliwhirl,True,True,False,Fishing Super Rod,23,50%
+Celadon City,slowpoke,True,True,False,Fishing Super Rod,15,50%
+Celadon City,goldeen,False,False,True,Fishing Super Rod,"5, 10, 15, 20",100%
+Fuchsia City,magikarp,True,True,True,Fishing Old Rod,5,100%
+Fuchsia City,poliwag,True,True,True,Fishing Good Rod,10,50%
+Fuchsia City,goldeen,True,True,True,Fishing Good Rod,10,50%
+Fuchsia City,krabby,True,True,False,Fishing Super Rod,15,25%
+Fuchsia City,goldeen,True,True,False,Fishing Super Rod,15,25%
+Fuchsia City,seaking,True,True,False,Fishing Super Rod,23,25%
+Fuchsia City,magikarp,True,True,False,Fishing Super Rod,15,25%
+Fuchsia City,magikarp,False,False,True,Fishing Super Rod,"5, 10, 15",90%
+Fuchsia City,gyarados,False,False,True,Fishing Super Rod,15,10%
+Cinnabar Island,magikarp,True,True,True,Fishing Old Rod,5,100%
+Cinnabar Island,poliwag,True,True,True,Fishing Good Rod,10,50%
+Cinnabar Island,goldeen,True,True,True,Fishing Good Rod,10,50%
+Cinnabar Island,tentacool,False,False,True,Fishing Super Rod,"15, 30",40%
+Cinnabar Island,shellder,True,True,False,Fishing Super Rod,15,25%
+Cinnabar Island,horsea,True,True,False,Fishing Super Rod,15,25%
+Cinnabar Island,goldeen,True,True,False,Fishing Super Rod,15,25%
+Cinnabar Island,staryu,True,True,False,Fishing Super Rod,15,25%
+Cinnabar Island,staryu,False,False,True,Fishing Super Rod,"10, 15",60%
+Route 1,pidgey,True,True,False,Grass,2-5,50%
+Route 1,pidgey,False,False,True,Grass,2-7,70%
+Route 1,rattata,True,True,False,Grass,2-4,50%
+Route 1,rattata,False,False,True,Grass,2-4,30%
+Route 1,pikachu,False,False,True,Only one,5,One
+Route 2,caterpie,False,True,False,Grass,3-5,15%
+Route 2,weedle,True,False,False,Grass,3-5,15%
+Route 2,pidgey,True,True,False,Grass,3-5,45%
+Route 2,pidgey,False,False,True,Grass,"3, 5, 7",35%
+Route 2,rattata,True,True,False,Grass,2-5,40%
+Route 2,rattata,False,False,True,Grass,3-4,35%
+Route 2,nidoran_f,False,False,True,Grass,"4, 6",15%
+Route 2,nidoran_m,False,False,True,Grass,"4, 6",15%
+Route 2,mr_mime,True,True,False,Trade Abra,The same as the traded Pokémon,One
+Route 2,mr_mime,False,False,True,Trade Clefairy,The same as the traded Pokémon,One
+Route 3,pidgey,True,True,False,Grass,6-8,45%
+Route 3,rattata,False,False,True,Grass,"10, 12",15%
+Route 3,spearow,True,True,False,Grass,5-8,45%
+Route 3,spearow,False,False,True,Grass,8-12,55%
+Route 3,sandshrew,False,False,True,Grass,"8, 10",15%
+Route 3,jigglypuff,True,True,False,Grass,"3, 5, 7",10%
+Route 3,mankey,False,False,True,Grass,9,15%
+Route 4,rattata,True,True,False,Grass,"8, 10, 12",40%
+Route 4,rattata,False,False,True,Grass,"10, 12",15%
+Route 4,spearow,True,True,False,Grass,"8, 10, 12",35%
+Route 4,spearow,False,False,True,Grass,8-12,55%
+Route 4,ekans,True,False,False,Grass,"6, 8, 10, 12",25%
+Route 4,sandshrew,False,True,False,Grass,"6, 8, 10, 12",25%
+Route 4,sandshrew,False,False,True,Grass,"8, 10",15%
+Route 4,mankey,False,False,True,Grass,9,15%
+Route 4,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 4,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 4,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 4,psyduck,True,True,False,Fishing Super Rod,15,33%
+Route 4,krabby,True,True,False,Fishing Super Rod,15,33%
+Route 4,goldeen,True,True,False,Fishing Super Rod,15,33%
+Route 4,goldeen,False,False,True,Fishing Super Rod,"20, 25, 30",90%
+Route 4,seaking,False,False,True,Fishing Super Rod,30,10%
+Route 4,magikarp,True,True,True,Gift,5,Purchase for 500
+Route 5,pidgey,True,True,False,Grass,"13, 15-16",40%
+Route 5,pidgey,False,False,True,Grass,15-17,40%
+Route 5,pidgeotto,False,False,True,Grass,17,5%
+Route 5,rattata,False,False,True,Grass,"14, 16",30%
+Route 5,jigglypuff,False,False,True,Grass,"3, 5, 7",10%
+Route 5,oddish,True,False,False,Grass,"13, 15-16",35%
+Route 5,meowth,False,True,False,Grass,"10, 12, 14, 16",25%
+Route 5,mankey,True,False,False,Grass,"10, 12, 14, 16",25%
+Route 5,abra,False,False,True,Grass,7,15%
+Route 5,bellsprout,False,True,False,Grass,"13, 15-16",35%
+Route 6,pidgey,True,True,False,Grass,"13, 15-16",40%
+Route 6,pidgey,False,False,True,Grass,15-17,40%
+Route 6,pidgeotto,False,False,True,Grass,17,5%
+Route 6,rattata,False,False,True,Grass,"14, 16",30%
+Route 6,jigglypuff,False,False,True,Grass,"3, 5, 7",10%
+Route 6,oddish,True,False,False,Grass,"13, 15-16",35%
+Route 6,meowth,False,True,False,Grass,"10, 12, 14, 16",25%
+Route 6,mankey,True,False,False,Grass,"10, 12, 14, 16",25%
+Route 6,abra,False,False,True,Grass,7,15%
+Route 6,bellsprout,False,True,False,Grass,"13, 15-16",35%
+Route 6,psyduck,False,False,True,Surfing,15,95%
+Route 6,golduck,False,False,True,Surfing,"15, 20",5%
+Route 6,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 6,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 6,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 6,shellder,True,True,False,Fishing Super Rod,15,50%
+Route 6,krabby,True,True,False,Fishing Super Rod,15,50%
+Route 6,goldeen,False,False,True,Fishing Super Rod,"5, 10, 15, 20",100%
+Route 7,pidgey,True,True,False,Grass,"19, 22",30%
+Route 7,pidgey,False,False,True,Grass,"20, 22",40%
+Route 7,pidgeotto,False,False,True,Grass,24,10%
+Route 7,rattata,False,False,True,Grass,20,15%
+Route 7,vulpix,False,True,False,Grass,"18, 20",10%
+Route 7,jigglypuff,False,False,True,Grass,"19, 24",10%
+Route 7,oddish,True,False,False,Grass,"19, 22",30%
+Route 7,meowth,False,True,False,Grass,17-20,30%
+Route 7,mankey,True,False,False,Grass,17-20,30%
+Route 7,growlithe,True,False,False,Grass,"18, 20",10%
+Route 7,abra,False,False,True,Grass,"15, 19, 26",25%
+Route 7,bellsprout,False,True,False,Grass,"19, 22",30%
+Route 8,pidgey,True,True,False,Grass,"18, 20",35%
+Route 8,pidgey,False,False,True,Grass,"20, 22",40%
+Route 8,pidgeotto,False,False,True,Grass,24,10%
+Route 8,rattata,False,False,True,Grass,20,15%
+Route 8,ekans,True,False,False,Grass,"17, 19",20%
+Route 8,sandshrew,False,True,False,Grass,"17, 19",20%
+Route 8,vulpix,False,True,False,Grass,15-18,20%
+Route 8,jigglypuff,False,False,True,Grass,"19, 24",10%
+Route 8,meowth,False,True,False,Grass,"18, 20",25%
+Route 8,mankey,True,False,False,Grass,"18, 20",25%
+Route 8,growlithe,True,False,False,Grass,15-18,20%
+Route 8,abra,False,False,True,Grass,"15, 19",20%
+Route 8,kadabra,False,False,True,Grass,"20, 27",5%
+Route 9,rattata,True,True,False,Grass,"14, 16-17",40%
+Route 9,rattata,False,False,True,Grass,18,15%
+Route 9,raticate,False,False,True,Grass,20,4%
+Route 9,spearow,True,True,False,Grass,"13, 16-17",35%
+Route 9,spearow,False,False,True,Grass,17,10%
+Route 9,fearow,False,False,True,Grass,19,1%
+Route 9,ekans,True,False,False,Grass,"11, 13, 15, 17",25%
+Route 9,sandshrew,False,True,False,Grass,"11, 13, 15, 17",25%
+Route 9,nidoran_f,False,False,True,Grass,"16, 18",35%
+Route 9,nidorina,False,False,True,Grass,18,5%
+Route 9,nidoran_m,False,False,True,Grass,"16, 18",25%
+Route 9,nidorino,False,False,True,Grass,18,5%
+Route 10,rattata,False,False,True,Grass,18,15%
+Route 10,raticate,False,False,True,Grass,20,5%
+Route 10,spearow,True,True,False,Grass,"13, 16-17",30%
+Route 10,ekans,True,False,False,Grass,"11, 13, 15, 17",25%
+Route 10,sandshrew,False,True,False,Grass,"11, 13, 15, 17",25%
+Route 10,nidoran_f,False,False,True,Grass,17,10%
+Route 10,nidoran_m,False,False,True,Grass,17,10%
+Route 10,machop,False,False,True,Grass,"16, 18",5%
+Route 10,magnemite,False,False,True,Grass,"16, 18, 20, 22",55%
+Route 10,voltorb,True,True,False,Grass,"14, 16-17",45%
+Route 10,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 10,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 10,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 10,poliwhirl,True,True,False,Fishing Super Rod,23,50%
+Route 10,slowpoke,True,True,False,Fishing Super Rod,15,50%
+Route 10,krabby,False,False,True,Fishing Super Rod,"15, 20",70%
+Route 10,kingler,False,False,True,Fishing Super Rod,25,10%
+Route 10,horsea,False,False,True,Fishing Super Rod,10,20%
+Route 11,pidgey,False,False,True,Grass,"16, 18",40%
+Route 11,pidgeotto,False,False,True,Grass,"18, 20",10%
+Route 11,rattata,False,False,True,Grass,"15, 17",25%
+Route 11,raticate,False,False,True,Grass,17,1%
+Route 11,spearow,True,True,False,Grass,"13, 15, 17",35%
+Route 11,ekans,True,False,False,Grass,"12, 14-15",40%
+Route 11,sandshrew,False,True,False,Grass,"12, 14-15",40%
+Route 11,drowzee,True,True,False,Grass,"9, 11, 13, 15",25%
+Route 11,drowzee,False,False,True,Grass,"15, 17, 19",24%
+Route 11,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 11,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 11,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 11,tentacool,False,False,True,Fishing Super Rod,"10, 15, 20",90%
+Route 11,shellder,True,True,False,Fishing Super Rod,15,50%
+Route 11,krabby,True,True,False,Fishing Super Rod,15,50%
+Route 11,horsea,False,False,True,Fishing Super Rod,5,10%
+Route 11,nidorina,True,True,False,Trade Nidorino,The same as the Traded Pokémon,One
+Route 11,dugtrio,False,False,True,Trade Lickitung,The same as the Traded Pokémon,One
+Route 12,pidgey,True,True,False,Grass,"23, 25, 27",35%
+Route 12,pidgey,False,False,True,Grass,28,15%
+Route 12,pidgeotto,False,False,True,Grass,28,10%
+Route 12,oddish,True,False,False,Grass,"22, 24, 26",40%
+Route 12,oddish,False,False,True,Grass,"25, 27",35%
+Route 12,gloom,True,False,False,Grass,"28, 30",5%
+Route 12,gloom,False,False,True,Grass,29,5%
+Route 12,venonat,True,True,False,Grass,"24, 26",20%
+Route 12,bellsprout,False,True,False,Grass,"22, 24, 26",40%
+Route 12,bellsprout,False,False,True,Grass,"25, 27",25%
+Route 12,weepinbell,False,True,False,Grass,"28, 30",5%
+Route 12,weepinbell,False,False,True,Grass,29,5%
+Route 12,farfetchd,False,False,True,Grass,"26, 31",5%
+Route 12,slowpoke,False,False,True,Surfing,15,95%
+Route 12,slowbro,False,False,True,Surfing,"15, 20",5%
+Route 12,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 12,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 12,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 12,tentacool,True,True,False,Fishing Super Rod,5,25%
+Route 12,krabby,True,True,False,Fishing Super Rod,15,25%
+Route 12,horsea,False,False,True,Fishing Super Rod,"20, 25",70%
+Route 12,seadra,False,False,True,Fishing Super Rod,"25, 35",30%
+Route 12,goldeen,True,True,False,Fishing Super Rod,15,25%
+Route 12,magikarp,True,True,False,Fishing Super Rod,15,25%
+Route 12,snorlax,True,True,True,Only one,30,One
+Route 13,pidgey,True,True,False,Grass,"25, 27",30%
+Route 13,pidgey,False,False,True,Grass,28,10%
+Route 13,pidgeotto,False,False,True,Grass,28,15%
+Route 13,oddish,True,False,False,Grass,"22, 24, 26",40%
+Route 13,oddish,False,False,True,Grass,"25, 27",35%
+Route 13,gloom,True,False,False,Grass,"28, 30",5%
+Route 13,gloom,False,False,True,Grass,29,5%
+Route 13,venonat,True,True,False,Grass,"24, 26",20%
+Route 13,bellsprout,False,True,False,Grass,"22, 24, 26",40%
+Route 13,bellsprout,False,False,True,Grass,"25, 27",25%
+Route 13,weepinbell,False,True,False,Grass,"28, 30",5%
+Route 13,weepinbell,False,False,True,Grass,29,5%
+Route 13,farfetchd,False,False,True,Grass,"26, 31",5%
+Route 13,ditto,True,True,False,Grass,25,5%
+Route 13,slowpoke,False,False,True,Surfing,15,95%
+Route 13,slowbro,False,False,True,Surfing,"15, 20",5%
+Route 13,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 13,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 13,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 13,tentacool,True,True,False,Fishing Super Rod,5,25%
+Route 13,tentacool,False,False,True,Fishing Super Rod,10,20%
+Route 13,krabby,True,True,False,Fishing Super Rod,15,25%
+Route 13,horsea,False,False,True,Fishing Super Rod,"15, 20",70%
+Route 13,seadra,False,False,True,Fishing Super Rod,20,10%
+Route 13,goldeen,True,True,False,Fishing Super Rod,15,25%
+Route 13,magikarp,True,True,False,Fishing Super Rod,15,25%
+Route 14,pidgey,True,True,False,Grass,26,15%
+Route 14,pidgeotto,True,True,False,Grass,"28, 30",5%
+Route 14,pidgeotto,False,False,True,Grass,30,10%
+Route 14,oddish,True,False,False,Grass,"22, 24, 26",40%
+Route 14,oddish,False,False,True,Grass,"26, 28",35%
+Route 14,gloom,True,False,True,Grass,30,5%
+Route 14,venonat,True,True,False,Grass,"24, 26",20%
+Route 14,venonat,False,False,True,Grass,"24, 27",19%
+Route 14,venomoth,False,False,True,Grass,30,1%
+Route 14,bellsprout,False,True,False,Grass,"22, 24, 26",40%
+Route 14,bellsprout,False,False,True,Grass,"26, 28",25%
+Route 14,weepinbell,False,True,True,Grass,30,5%
+Route 14,ditto,True,True,False,Grass,23,15%
+Route 14,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 14,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 14,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 15,pidgey,True,True,False,Grass,23,15%
+Route 15,pidgeotto,True,True,False,Grass,"28, 30",5%
+Route 15,pidgeotto,False,False,True,Grass,32,10%
+Route 15,oddish,True,False,False,Grass,"22, 24, 26",40%
+Route 15,oddish,False,False,True,Grass,"26, 28",35%
+Route 15,gloom,True,False,True,Grass,30,5%
+Route 15,venonat,True,True,False,Grass,"26, 28",20%
+Route 15,venonat,False,False,True,Grass,"24, 27",19%
+Route 15,venomoth,False,False,True,Grass,30,1%
+Route 15,bellsprout,False,True,False,Grass,"22, 24, 26",40%
+Route 15,bellsprout,False,False,True,Grass,"26, 28",25%
+Route 15,weepinbell,False,True,True,Grass,30,5%
+Route 15,ditto,True,True,False,Grass,26,15%
+Route 16,rattata,True,True,False,Grass,"18, 20, 22",30%
+Route 16,rattata,False,False,True,Grass,23-24,25%
+Route 16,raticate,True,True,False,Grass,"23, 25",5%
+Route 16,raticate,False,False,True,Grass,25-26,5%
+Route 16,spearow,True,True,False,Grass,"20, 22",40%
+Route 16,spearow,False,False,True,Grass,22-23,30%
+Route 16,fearow,False,False,True,Grass,24,5%
+Route 16,doduo,True,True,False,Grass,"18, 20, 22",25%
+Route 16,doduo,False,False,True,Grass,"22, 24, 26",35%
+Route 16,snorlax,True,True,True,Only one,30,One
+Route 17,raticate,True,True,False,Grass,"25, 27, 29",30%
+Route 17,spearow,True,True,False,Grass,"20, 22",40%
+Route 17,fearow,True,True,False,Grass,"25, 27",5%
+Route 17,fearow,False,False,True,Grass,"27, 29",20%
+Route 17,ponyta,False,False,True,Grass,"28, 30, 32",24%
+Route 17,doduo,True,True,False,Grass,"24, 26, 28",25%
+Route 17,doduo,False,False,True,Grass,26-28,55%
+Route 17,dodrio,False,False,True,Grass,29,1%
+Route 17,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 17,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 17,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 17,tentacool,True,True,False,Fishing Super Rod,5,25%
+Route 17,tentacool,False,False,True,Fishing Super Rod,"5, 15",70%
+Route 17,shellder,False,False,True,Fishing Super Rod,"25, 35",30%
+Route 17,krabby,True,True,False,Fishing Super Rod,15,25%
+Route 17,goldeen,True,True,False,Fishing Super Rod,15,25%
+Route 17,magikarp,True,True,False,Fishing Super Rod,15,25%
+Route 18,rattata,False,False,True,Grass,23-24,25%
+Route 18,raticate,True,True,False,Grass,"25, 29",20%
+Route 18,raticate,False,False,True,Grass,25-26,5%
+Route 18,spearow,True,True,False,Grass,"20, 22",40%
+Route 18,spearow,False,False,True,Grass,22-23,30%
+Route 18,fearow,True,True,False,Grass,"25, 27, 29",15%
+Route 18,fearow,False,False,True,Grass,24,5%
+Route 18,doduo,True,True,False,Grass,"24, 26, 28",25%
+Route 18,doduo,False,False,True,Grass,"22, 24, 26",35%
+Route 18,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 18,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 18,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 18,tentacool,True,True,False,Fishing Super Rod,5,25%
+Route 18,tentacool,False,False,True,Fishing Super Rod,15,40%
+Route 18,shellder,False,False,True,Fishing Super Rod,"20, 30, 40",60%
+Route 18,krabby,True,True,False,Fishing Super Rod,15,25%
+Route 18,goldeen,True,True,False,Fishing Super Rod,15,25%
+Route 18,magikarp,True,True,False,Fishing Super Rod,15,25%
+Route 18,lickitung,True,True,False,Trade Slowbro,Same as the traded Pokémon,One
+Route 18,parasect,False,False,True,Trade Tangela,Same as the traded Pokémon,One
+Sea Route 19,tentacool,True,True,True,Surfing,"5, 10, 15, 20, 30, 35, 40",100%
+Sea Route 19,magikarp,True,True,True,Fishing Old Rod,5,100%
+Sea Route 19,poliwag,True,True,True,Fishing Good Rod,10,50%
+Sea Route 19,goldeen,True,True,True,Fishing Good Rod,10,50%
+Sea Route 19,tentacool,False,False,True,Fishing Super Rod,"15, 30",60%
+Sea Route 19,tentacruel,False,False,True,Fishing Super Rod,30,10%
+Sea Route 19,shellder,True,True,False,Fishing Super Rod,15,25%
+Sea Route 19,horsea,True,True,False,Fishing Super Rod,15,25%
+Sea Route 19,goldeen,True,True,False,Fishing Super Rod,15,25%
+Sea Route 19,staryu,True,True,False,Fishing Super Rod,15,25%
+Sea Route 19,staryu,False,False,True,Fishing Super Rod,20,30%
+Sea Route 21,pidgey,True,True,False,Grass,"21, 23",25%
+Sea Route 21,pidgey,False,False,True,Grass,"11, 13, 15, 17",60%
+Sea Route 21,pidgeotto,True,True,False,Grass,"30, 32",15%
+Sea Route 21,pidgeotto,False,False,True,Grass,"15, 17, 19",10%
+Sea Route 21,rattata,True,True,False,Grass,"21, 23",35%
+Sea Route 21,rattata,False,False,True,Grass,"13, 15",25%
+Sea Route 21,raticate,True,True,False,Grass,30,15%
+Sea Route 21,raticate,False,False,True,Grass,15,5%
+Sea Route 21,tangela,True,True,False,Grass,"28, 30, 32",10%
+Sea Route 21,tentacool,True,True,True,Surfing,"5, 10, 15, 20, 30, 35, 40",100%
+Sea Route 21,magikarp,True,True,True,Fishing Old Rod,5,100%
+Sea Route 21,poliwag,True,True,True,Fishing Good Rod,10,50%
+Sea Route 21,goldeen,True,True,True,Fishing Good Rod,10,50%
+Sea Route 21,tentacool,False,False,True,Fishing Super Rod,"15, 30",60%
+Sea Route 21,tentacruel,False,False,True,Fishing Super Rod,30,10%
+Sea Route 21,shellder,True,True,False,Fishing Super Rod,15,25%
+Sea Route 21,horsea,True,True,False,Fishing Super Rod,15,25%
+Sea Route 21,goldeen,True,True,False,Fishing Super Rod,15,25%
+Sea Route 21,staryu,True,True,False,Fishing Super Rod,15,25%
+Sea Route 21,staryu,False,False,True,Fishing Super Rod,20,30%
+Route 22,rattata,True,True,False,Grass,2-4,45%
+Route 22,rattata,False,False,True,Grass,3,10%
+Route 22,spearow,True,True,False,Grass,"3, 5",10%
+Route 22,spearow,False,False,True,Grass,"2, 4, 6",10%
+Route 22,nidoran_f,True,False,False,Grass,3-4,5%
+Route 22,nidoran_f,False,True,False,Grass,2-4,40%
+Route 22,nidoran_f,False,False,True,Grass,"2, 4",25%
+Route 22,nidoran_m,True,False,False,Grass,2-4,40%
+Route 22,nidoran_m,False,True,False,Grass,3-4,5%
+Route 22,nidoran_m,False,False,True,Grass,"2, 4",35%
+Route 22,mankey,False,False,True,Grass,"3, 5",20%
+Route 22,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 22,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 22,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 22,poliwag,True,True,False,Fishing Super Rod,15,50%
+Route 22,poliwag,False,False,True,Fishing Super Rod,"5, 10, 15",90%
+Route 22,poliwhirl,False,False,True,Fishing Super Rod,15,10%
+Route 22,goldeen,True,True,False,Fishing Super Rod,15,50%
+Route 23,spearow,True,True,False,Grass,26,15%
+Route 23,fearow,True,True,False,Grass,"38, 41, 43",25%
+Route 23,fearow,False,False,True,Grass,"40, 45",15%
+Route 23,ekans,True,False,False,Grass,26,25%
+Route 23,arbok,True,False,False,Grass,41,5%
+Route 23,sandshrew,False,True,False,Grass,26,25%
+Route 23,sandslash,False,True,False,Grass,41,5%
+Route 23,nidorina,False,False,True,Grass,"41, 44",25%
+Route 23,nidorino,False,False,True,Grass,"41, 44",35%
+Route 23,mankey,False,False,True,Grass,"36, 41",20%
+Route 23,primeape,False,False,True,Grass,"41, 46",5%
+Route 23,ditto,True,True,False,Grass,"33, 38, 43",30%
+Route 23,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 23,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 23,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 23,poliwag,False,False,True,Fishing Super Rod,"25, 30",70%
+Route 23,poliwhirl,False,False,True,Fishing Super Rod,"30, 40",30%
+Route 23,slowbro,True,True,False,Fishing Super Rod,23,25%
+Route 23,kingler,True,True,False,Fishing Super Rod,23,25%
+Route 23,seadra,True,True,False,Fishing Super Rod,23,25%
+Route 23,seaking,True,True,False,Fishing Super Rod,23,25%
+Route 24,caterpie,False,True,False,Grass,7,20%
+Route 24,metapod,False,True,False,Grass,8,20%
+Route 24,weedle,True,False,False,Grass,7,20%
+Route 24,kakuna,True,False,False,Grass,8,20%
+Route 24,pidgey,True,True,False,Grass,12-13,20%
+Route 24,pidgey,False,False,True,Grass,"13, 15, 17",29%
+Route 24,pidgeotto,False,False,True,Grass,17,1%
+Route 24,oddish,True,False,False,Grass,12-14,25%
+Route 24,oddish,False,False,True,Grass,"12, 14",35%
+Route 24,venonat,False,False,True,Grass,"13, 16",10%
+Route 24,abra,True,True,False,Grass,"8, 10, 12",15%
+Route 24,bellsprout,False,True,False,Grass,12-14,25%
+Route 24,bellsprout,False,False,True,Grass,"12, 14",25%
+Route 24,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 24,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 24,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 24,psyduck,True,True,False,Fishing Super Rod,15,33%
+Route 24,krabby,True,True,False,Fishing Super Rod,15,33%
+Route 24,goldeen,True,True,False,Fishing Super Rod,15,33%
+Route 24,goldeen,False,False,True,Fishing Super Rod,"20, 25, 30",90%
+Route 24,seaking,False,False,True,Fishing Super Rod,30,10%
+Route 24,charmander,False,False,True,Gift,10,One
+Route 25,caterpie,True,False,False,Grass,8,1%
+Route 25,caterpie,False,True,False,Grass,8,20%
+Route 25,metapod,True,False,False,Grass,7,4%
+Route 25,metapod,False,True,False,Grass,9,20%
+Route 25,weedle,True,False,False,Grass,8,20%
+Route 25,weedle,False,True,False,Grass,8,1%
+Route 25,kakuna,True,False,False,Grass,9,20%
+Route 25,kakuna,False,True,False,Grass,7,4%
+Route 25,pidgey,True,True,False,Grass,13,15%
+Route 25,pidgey,False,False,True,Grass,"13, 15, 17",29%
+Route 25,pidgeotto,False,False,True,Grass,17,1%
+Route 25,oddish,True,False,False,Grass,12-14,25%
+Route 25,oddish,False,False,True,Grass,"12, 14",35%
+Route 25,venonat,False,False,True,Grass,"13, 16",10%
+Route 25,abra,True,True,False,Grass,"10, 12",15%
+Route 25,bellsprout,False,True,False,Grass,12-14,25%
+Route 25,bellsprout,False,False,True,Grass,"12, 14",25%
+Route 25,magikarp,True,True,True,Fishing Old Rod,5,100%
+Route 25,poliwag,True,True,True,Fishing Good Rod,10,50%
+Route 25,goldeen,True,True,True,Fishing Good Rod,10,50%
+Route 25,psyduck,True,True,False,Fishing Super Rod,15,33%
+Route 25,krabby,True,True,False,Fishing Super Rod,15,33%
+Route 25,krabby,False,False,True,Fishing Super Rod,"10, 15",70%
+Route 25,kingler,False,False,True,Fishing Super Rod,"15, 25",30%
+Route 25,goldeen,True,True,False,Fishing Super Rod,15,33%
+Diglett's Cave,diglett,True,True,True,Cave,15-22,95%
+Diglett's Cave,dugtrio,True,True,True,Cave,"29, 31",5%
+Viridian Forest,caterpie,True,False,False,Grass,3,5%
+Viridian Forest,caterpie,False,True,False,Grass,3-5,45%
+Viridian Forest,caterpie,False,False,True,Grass,3-6,55%
+Viridian Forest,metapod,True,False,False,Grass,4,5%
+Viridian Forest,metapod,False,True,False,Grass,4-6,40%
+Viridian Forest,metapod,False,False,True,Grass,"4, 6",20%
+Viridian Forest,weedle,True,False,False,Grass,3-5,45%
+Viridian Forest,weedle,False,True,False,Grass,3,5%
+Viridian Forest,kakuna,True,False,False,Grass,4-6,40%
+Viridian Forest,kakuna,False,True,False,Grass,4,5%
+Viridian Forest,pidgey,False,False,True,Grass,"4, 6, 8",24%
+Viridian Forest,pidgeotto,False,False,True,Grass,9,1%
+Viridian Forest,pikachu,True,True,False,Grass,"3, 5",5%
+Underground Path (Kanto Routes 5-6),nidoran_f,True,True,False,Trade Nidoran♂,The same as the traded Pokémon,One
+Underground Path (Kanto Routes 5-6),machoke,False,False,True,Trade Cubone,The same as the traded Pokémon,One
+Rock Tunnel,zubat,True,True,False,Cave,15-18,55%
+Rock Tunnel,zubat,False,False,True,Cave,"15, 17, 19, 21",55%
+Rock Tunnel,geodude,True,True,False,Cave,16-17,25%
+Rock Tunnel,geodude,False,False,True,Cave,"16, 18, 20",35%
+Rock Tunnel,machop,True,True,False,Cave,"15, 17",15%
+Rock Tunnel,machop,False,False,True,Cave,"17, 19, 21",10%
+Rock Tunnel,onix,True,True,False,Cave,"13, 15",5%
+Power Plant,pikachu,True,True,False,Walking,"20, 24",25%
+Power Plant,raichu,False,True,False,Walking,"33, 36",5%
+Power Plant,magnemite,True,True,False,Walking,"21, 23",25%
+Power Plant,magnemite,False,False,True,Walking,"30, 35",40%
+Power Plant,magneton,True,True,False,Walking,"32, 35",10%
+Power Plant,magneton,False,False,True,Walking,"33, 38",20%
+Power Plant,grimer,False,False,True,Walking,"33, 37",15%
+Power Plant,muk,False,False,True,Walking,"33, 37",5%
+Power Plant,voltorb,True,True,False,Walking,"21, 23",35%
+Power Plant,voltorb,False,False,True,Walking,"33, 37",20%
+Power Plant,electabuzz,True,False,False,Walking,"33, 36",5%
+Power Plant,voltorb,True,True,True,Fake item,40,Six
+Power Plant,electrode,True,True,True,Fake item,43,Two
+Power Plant,zapdos,True,True,True,Only one,50,One
+Vermilion Harbor,squirtle,False,False,True,Gift,10,One
+Vermilion Harbor,farfetchd,True,True,False,Trade Spearow,The same as the Traded Pokémon,One
+Vermilion Harbor,magikarp,True,True,True,Fishing Old Rod,5,100%
+Vermilion Harbor,poliwag,True,True,True,Fishing Good Rod,10,50%
+Vermilion Harbor,goldeen,True,True,True,Fishing Good Rod,10,50%
+Vermilion Harbor,tentacool,False,False,True,Fishing Super Rod,"10, 15, 20",90%
+Vermilion Harbor,shellder,True,True,False,Fishing Super Rod,15,50%
+Vermilion Harbor,krabby,True,True,False,Fishing Super Rod,15,50%
+Vermilion Harbor,horsea,False,False,True,Fishing Super Rod,5,10%
+Celadon Mansion,eevee,True,True,True,Gift,25,One
+Seafoam Islands,zubat,True,True,False,Cave,21,10%
+Seafoam Islands,zubat,False,False,True,Cave,"9, 18, 27, 36",50%
+Seafoam Islands,golbat,True,True,False,Cave,29,5%
+Seafoam Islands,golbat,False,False,True,Cave,"27, 36",5%
+Seafoam Islands,psyduck,True,False,False,Cave,28,5%
+Seafoam Islands,psyduck,False,True,False,Cave,30,20%
+Seafoam Islands,golduck,True,False,False,Cave,38,1%
+Seafoam Islands,slowpoke,True,False,False,Cave,30,20%
+Seafoam Islands,slowpoke,False,True,False,Cave,28,5%
+Seafoam Islands,slowpoke,False,False,True,Cave,"28, 30",15%
+Seafoam Islands,slowbro,False,True,False,Cave,38,1%
+Seafoam Islands,seel,True,True,False,Cave,30,20%
+Seafoam Islands,shellder,True,False,False,Cave,"28, 30",19%
+Seafoam Islands,krabby,False,True,False,Cave,"28, 30",20%
+Seafoam Islands,krabby,False,False,True,Cave,"25, 27",30%
+Seafoam Islands,horsea,True,False,False,Cave,"28, 30",20%
+Seafoam Islands,staryu,False,True,False,Cave,"28, 30",19%
+Pokémon Mansion,rattata,False,False,True,1F,"34, 37",35%
+Pokémon Mansion,raticate,False,False,True,1F,"34, 37",25%
+Pokémon Mansion,vulpix,False,True,False,1F,34,10%
+Pokémon Mansion,growlithe,True,False,False,1F,34,10%
+Pokémon Mansion,growlithe,False,False,True,1F,"26, 30, 34, 38",20%
+Pokémon Mansion,ponyta,True,True,False,1F,"28, 30, 32, 34",40%
+Pokémon Mansion,grimer,True,False,False,1F,30,5%
+Pokémon Mansion,grimer,False,True,False,1F,"30, 32",40%
+Pokémon Mansion,grimer,False,False,True,1F,"23, 26",20%
+Pokémon Mansion,muk,True,False,False,1F,39,1%
+Pokémon Mansion,muk,False,True,False,1F,37,4%
+Pokémon Mansion,koffing,True,False,False,1F,"30, 32",40%
+Pokémon Mansion,koffing,False,True,False,1F,30,5%
+Pokémon Mansion,weezing,True,False,False,1F,37,4%
+Pokémon Mansion,weezing,False,True,False,1F,39,1%
+Pokémon Mansion,rattata,False,False,True,2F,"37, 40",35%
+Pokémon Mansion,raticate,False,False,True,2F,"37, 40",25%
+Pokémon Mansion,vulpix,False,True,False,2F,32,25%
+Pokémon Mansion,growlithe,True,False,False,2F,32,25%
+Pokémon Mansion,ponyta,True,True,False,2F,"28, 30, 32",25%
+Pokémon Mansion,grimer,True,False,False,2F,30,5%
+Pokémon Mansion,grimer,False,True,False,2F,"30, 34",40%
+Pokémon Mansion,grimer,False,False,True,2F,"26, 29, 32, 35",35%
+Pokémon Mansion,muk,True,False,False,2F,37,1%
+Pokémon Mansion,muk,False,True,False,2F,39,4%
+Pokémon Mansion,muk,False,False,True,2F,"35, 38",5%
+Pokémon Mansion,koffing,True,False,False,2F,"30, 34",40%
+Pokémon Mansion,koffing,False,True,False,2F,30,5%
+Pokémon Mansion,weezing,True,False,False,2F,39,4%
+Pokémon Mansion,weezing,False,True,False,2F,37,1%
+Pokémon Mansion,rattata,False,False,True,3F,"40, 43",35%
+Pokémon Mansion,raticate,False,False,True,3F,"40, 43",25%
+Pokémon Mansion,vulpix,False,True,False,3F,33,15%
+Pokémon Mansion,growlithe,True,False,False,3F,33,15%
+Pokémon Mansion,ponyta,True,False,False,3F,"32, 34, 36",24%
+Pokémon Mansion,ponyta,False,True,False,3F,"32, 36",14%
+Pokémon Mansion,grimer,True,False,False,3F,34,5%
+Pokémon Mansion,grimer,False,True,False,3F,"31, 35",40%
+Pokémon Mansion,grimer,False,False,True,3F,"32, 35, 38",35%
+Pokémon Mansion,muk,True,False,False,3F,42,1%
+Pokémon Mansion,muk,False,True,False,3F,"38, 40",15%
+Pokémon Mansion,muk,False,False,True,3F,"38, 41",5%
+Pokémon Mansion,koffing,True,False,False,3F,"31, 35",40%
+Pokémon Mansion,koffing,False,True,False,3F,34,5%
+Pokémon Mansion,weezing,True,False,False,3F,"38, 40",15%
+Pokémon Mansion,weezing,False,True,False,3F,42,1%
+Pokémon Mansion,magmar,False,True,False,3F,34,10%
+Pokémon Mansion,raticate,False,False,True,B1F,"37, 40, 43, 46",40%
+Pokémon Mansion,vulpix,False,True,False,B1F,35,15%
+Pokémon Mansion,growlithe,True,False,False,B1F,35,15%
+Pokémon Mansion,ponyta,True,True,False,B1F,"32, 34",15%
+Pokémon Mansion,grimer,True,False,False,B1F,35,5%
+Pokémon Mansion,grimer,False,True,False,B1F,"31, 33",50%
+Pokémon Mansion,grimer,False,False,True,B1F,"35, 38",40%
+Pokémon Mansion,muk,True,False,False,B1F,42,1%
+Pokémon Mansion,muk,False,True,False,B1F,40,10%
+Pokémon Mansion,muk,False,False,True,B1F,41,10%
+Pokémon Mansion,koffing,True,False,False,B1F,"31, 33",50%
+Pokémon Mansion,koffing,False,True,False,B1F,35,5%
+Pokémon Mansion,weezing,True,False,False,B1F,"40, 42",14%
+Pokémon Mansion,weezing,False,True,False,B1F,42,1%
+Pokémon Mansion,magmar,False,True,False,B1F,38,4%
+Pokémon Mansion,ditto,False,False,True,B1F,"12, 18, 24",10%

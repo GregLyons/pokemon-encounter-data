@@ -54,6 +54,7 @@ def visitLocationLink(locationLink, writer):
     # region
 
     locationName = locationLink.get_text()
+    print(locationName)
     locationPage = openLink(
         'https://bulbapedia.bulbagarden.net' + locationLink['href'], 0, 10)
 
