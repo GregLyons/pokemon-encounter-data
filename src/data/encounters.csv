@@ -1,0 +1,24 @@
+Location,Pokemon,R,B,Y,Method,Levels,Rate
+Pallet Town,magikarp,True,True,True,Fishing Old Rod,5,100%
+Pallet Town,poliwag,True,True,True,Fishing Good Rod,10,50%
+Pallet Town,goldeen,True,True,True,Fishing Good Rod,10,50%
+Pallet Town,poliwag,True,True,False,Fishing Super Rod,15,50%
+Pallet Town,tentacool,True,True,False,Fishing Super Rod,15,50%
+Pallet Town,tentacool,False,False,True,Fishing Super Rod,"10, 20",40%
+Pallet Town,staryu,False,False,True,Fishing Super Rod,"5, 10",60%
+Viridian City,magikarp,True,True,True,Fishing Old Rod,5,100%
+Viridian City,poliwag,True,True,True,Fishing Good Rod,10,50%
+Viridian City,goldeen,True,True,True,Fishing Good Rod,10,50%
+Viridian City,poliwag,True,True,False,Fishing Super Rod,15,50%
+Viridian City,poliwag,False,False,True,Fishing Super Rod,"5, 10, 15",100%
+Viridian City,tentacool,True,True,False,Fishing Super Rod,15,50%
+Cerulean City,magikarp,True,True,True,Fishing Old Rod,5,100%
+Cerulean City,poliwag,True,True,True,Fishing Good Rod,10,50%
+Cerulean City,goldeen,True,True,True,Fishing Good Rod,10,50%
+Cerulean City,psyduck,True,True,False,Fishing Super Rod,15,33%
+Cerulean City,krabby,True,True,False,Fishing Super Rod,15,33%
+Cerulean City,goldeen,True,True,False,Fishing Super Rod,15,33%
+Cerulean City,goldeen,False,False,True,Fishing Super Rod,"25, 30",70%
+Cerulean City,seaking,False,False,True,Fishing Super Rod,"30, 40",30%
+Cerulean City,bulbasaur,False,False,True,Gift,10,One
+Cerulean City,jynx,True,True,False,Trade Poliwhirl,The same as the Traded Pokémon,One
