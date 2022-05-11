@@ -3,52 +3,36 @@ import csv
 from utils import getDataPath, openLink, parseName
 
 
-def makeEncounterCSV(fname):
+def makeEncounterCSV(findTable, writers, genSymbol):
+    # Keep track of links already visited
+    visitedHrefs = set()
 
-    with open(fname, 'w', newline='', encoding='utf-8') as csvFile:
-        writer = csv.writer(csvFile)
-        writer.writerow(['Location', 'Pokemon', 'R', 'B',
-                        'Y', 'Method', 'Levels', 'Rate'])
+    # Select rows of table
+    rows = findTable.find_all('tr')
+    for row in rows:
+        cells = row.find_all('td')
 
-        # Navigate to link
-        bs = openLink(
-            'https://bulbapedia.bulbagarden.net/wiki/List_of_locations_by_index_number_(Generation_I)', 0, 10)
+        # Ignore rows with less than 4 cells; don't contain useful information
+        # Ignore rows with no links
+        if len(cells) < 3 or row.find('a') == None:
+            continue
 
-        # Section where desired table is
-        findSection = bs.find('span', id=f'List_of_locations_by_index_number')
+        # Cell with desired data
+        locationCell = cells[2]
 
-        # Desired table (nested within an outer table)
-        findTable = findSection.findNext('table').find('table')
-
-        # Keep track of links already visited
-        visitedHrefs = set()
-
-        # Select rows of table
-        rows = findTable.find_all('tr')
-        for row in rows:
-            cells = row.find_all('td')
-
-            # Ignore rows with less than 4 cells; don't contain useful information
-            # Ignore rows with no links
-            if len(cells) != 4 or row.find('a') == None:
+        # Visit each link
+        for locationLink in locationCell.find_all('a'):
+            # If link has been visited, move on
+            if locationLink['href'] in visitedHrefs:
                 continue
-
-            # Cell with desired data
-            locationCell = cells[2]
-
-            # Visit each link
-            for locationLink in locationCell.find_all('a'):
-                # If link has been visited, move on
-                if locationLink['href'] in visitedHrefs:
-                    continue
-                # Otherwise, add encounter data
-                visitLocationLink(locationLink, writer)
-                visitedHrefs.add(locationLink['href'])
+            # Otherwise, add encounter data
+            visitLocationLink(locationLink, writers, genSymbol)
+            visitedHrefs.add(locationLink['href'])
 
     return
 
 
-def visitLocationLink(locationLink, writer):
+def visitLocationLink(locationLink, writers, genSymbol):
     #
     # Parse locationLink to determine if it has encounter data; if so, find section where encounter data is given
     # region
@@ -75,7 +59,8 @@ def visitLocationLink(locationLink, writer):
         return False
 
     # Otherwise, find desired gen
-    findTableSection = encounterSection.find_next('span', id=f'Generation_I')
+    findTableSection = encounterSection.find_next(
+        'span', id=f'Generation_{genSymbol}')
 
     # If no table for desired gen, leave
     if findTableSection == None:
@@ -92,10 +77,10 @@ def visitLocationLink(locationLink, writer):
 
     # Parse header row to get number of games being considered
     headerRow = findTable.find('tr')
-    numberGames = 1
+    colSpan = 6
     for th in headerRow.findChildren(['th'], recursive=False):
         if 'Games' in th.get_text():
-            numberGames = int(int(th['colspan']) / 2)
+            colSpan = int(th['colspan'])
 
     rows = findTable.find('tbody').findChildren('tr', recursive=False)[1:]
     for row in rows:
@@ -103,7 +88,13 @@ def visitLocationLink(locationLink, writer):
         cells = row.findChildren(['td', 'th'], recursive=False)
 
         # Ignore rows which are headers for sections/don't have enough cells
-        if (len(cells) < 4 + numberGames):
+        if len(cells) < 4:
+            continue
+
+        numberGames = int(colSpan / int(cells[1]['colspan']))
+
+        # Ignore rows which are headers for sections/don't have enough cells
+        if len(cells) < 4 + numberGames:
             continue
 
         csvRow = [locationName]
@@ -114,21 +105,47 @@ def visitLocationLink(locationLink, writer):
 
         # Get presence of data in games
         games = cells[1:1+numberGames]
+        versionGroupCode = ''
         for game in games:
             # White background indicates not present in game
             if game['style'] in ['background:#FFF;', 'background:#FFFFFF;']:
                 csvRow.append(False)
             else:
                 csvRow.append(True)
+            versionGroupCode += ''.join(game.stripped_strings)
 
-        location = ' '.join(list(cells[-3].stripped_strings))
-        csvRow.append(location)
-        levels = ' '.join(list(cells[-2].stripped_strings))
-        csvRow.append(levels)
-        rate = ' '.join(list(cells[-1].stripped_strings))
-        csvRow.append(rate)
+        # Indicates encounter rate same at all times of day
+        if len(cells) == 4 + numberGames:
+            location = ' '.join(list(cells[-3].stripped_strings))
+            csvRow.append(location)
+            levels = ' '.join(list(cells[-2].stripped_strings))
+            csvRow.append(levels)
 
-        writer.writerow(csvRow)
+            rate = ' '.join(list(cells[-1].stripped_strings))
+
+            # Rate applies at all times
+            if genSymbol == 'II':
+                csvRow += [rate, rate, rate]
+            # Not Gen 2, so no times of day dependence
+            else:
+                csvRow.append(rate)
+            writers[versionGroupCode].writerow(csvRow)
+        # Encounter rates depend on time of day
+        else:
+            location = ' '.join(list(cells[-5].stripped_strings))
+            csvRow.append(location)
+            levels = ' '.join(list(cells[-4].stripped_strings))
+            csvRow.append(levels)
+
+            morningRate = ' '.join(list(cells[-3].stripped_strings))
+            csvRow.append(morningRate)
+            dayRate = ' '.join(list(cells[-2].stripped_strings))
+            csvRow.append(dayRate)
+            nightRate = ' '.join(list(cells[-1].stripped_strings))
+            csvRow.append(nightRate)
+
+            writers[versionGroupCode].writerow(csvRow)
+
     #
     # endregion
     #
