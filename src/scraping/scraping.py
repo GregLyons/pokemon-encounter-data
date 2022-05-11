@@ -1,4 +1,5 @@
 import csv
+from urllib.error import URLError
 
 from utils import getDataPath, openLink, parseName
 
@@ -38,9 +39,15 @@ def visitLocationLink(locationLink, writers, genSymbol):
     # region
 
     locationName = locationLink.get_text()
+    # Go to link
+    try:
+        locationPage = openLink(
+            'https://bulbapedia.bulbagarden.net' + locationLink['href'], 0, 10)
+    # E.g. non-Bulbapedia link
+    except URLError:
+        print(locationName, 'BAD LINK!!!')
+        return False
     print(locationName)
-    locationPage = openLink(
-        'https://bulbapedia.bulbagarden.net' + locationLink['href'], 0, 10)
 
     # Find section of page with encounter data
     # Many pages have sections entitled "Pokémon" representing different things, but encounter data will be in sections with <h2> headings entitled "Pokémon", whereas the other sections may have "Pokémon" in a different heading level (e.g. <h5>).
@@ -73,7 +80,16 @@ def visitLocationLink(locationLink, writers, genSymbol):
     #
     # Add table data to .csv
     # region
-    findTable = findTableSection.find_next('table')
+
+    findTable = None
+    if findTableSection == None:
+        findTable = encounterSection.find_next('table')
+    else:
+        findTable = findTableSection.find_next('table')
+
+    # If no table for desired gen, leave
+    if findTable == None:
+        return
 
     # Parse header row to get number of games being considered
     headerRow = findTable.find('tr')
@@ -124,7 +140,7 @@ def visitLocationLink(locationLink, writers, genSymbol):
             rate = ' '.join(list(cells[-1].stripped_strings))
 
             # Rate applies at all times
-            if genSymbol == 'II':
+            if genSymbol in ['II', 'IV']:
                 csvRow += [rate, rate, rate]
             # Not Gen 2, so no times of day dependence
             else:
