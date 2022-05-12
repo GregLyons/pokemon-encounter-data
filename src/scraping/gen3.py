@@ -16,7 +16,7 @@ def main():
                              'E', 'Method', 'Levels', 'Rate'])
         writer_frlg = csv.writer(csvFile_frlg)
         writer_frlg.writerow(
-            ['Location', 'Pokemon', 'FR', 'LG', 'Method', 'Levels', 'Rate'])
+            ['Location', 'Sub-location', 'Pokemon', 'FR', 'LG', 'Method', 'Levels', 'Rate'])
         writer_none = csv.writer(csvFile_none)
         writer_none.writerow(['Version Group Code', 'Location', 'Reason'])
 

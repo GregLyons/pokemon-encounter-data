@@ -16,7 +16,7 @@ def main():
                              'Pt', 'Method', 'Levels', 'Morning Rate', 'Day Rate', 'Night Rate'])
         writer_hgss = csv.writer(csvFile_frlg)
         writer_hgss.writerow(
-            ['Location', 'Pokemon', 'HG', 'SS', 'Method', 'Levels', 'Morning Rate', 'Day Rate', 'Night Rate'])
+            ['Location', 'Sub-location', 'Pokemon', 'HG', 'SS', 'Method', 'Levels', 'Morning Rate', 'Day Rate', 'Night Rate'])
         writer_none = csv.writer(csvFile_none)
         writer_none.writerow(['Version Group Code', 'Location', 'Reason'])
 

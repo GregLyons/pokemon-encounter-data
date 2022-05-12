@@ -150,6 +150,11 @@ def findTables(encounterSection, genSymbol, headerLevel):
         findGenSection = encounterSection.find_next(
             'span', id=f'Generation_{genSymbol}_2')
 
+    # E.g. New Bark Town
+    if not findGenSection:
+        findGenSection = encounterSection.find_next(
+            'span', id=f'Generation_{genSymbol}_3')
+
     # # If no table for desired gen, leave
     # if findGenSection == None:
     #     return [], 'No tables found for desired gen.'
@@ -159,6 +164,9 @@ def findTables(encounterSection, genSymbol, headerLevel):
         # If location exists in other gens and has encounter data, then that means there's no encounter data for this gen
         for genSymbol in ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII']:
             if encounterSection.find_next('span', id=f'Generation_{genSymbol}'):
+                return [], 'Has Pokemon in other Gen'
+            # E.g. Scorched Slab
+            elif encounterSection.find_next('span', id=f'Generation_{genSymbol}_2'):
                 return [], 'Has Pokemon in other Gen'
 
         # Otherwise, there is encounter data for this gen only, which is why there's no section for this particular gen
@@ -181,6 +189,11 @@ def findTables(encounterSection, genSymbol, headerLevel):
                 tables.append([sibling, tableHeader])
             # The heading preceding the table
             if sibling.name in ['h2', 'h3', 'h4']:
+                # E.g. Kanto Safari Zone in Generation 3
+                siblingHeaderLevel = int(sibling.name[1])
+                if siblingHeaderLevel <= headerLevel:
+                    break
+
                 tableHeader = ' '.join(sibling.stripped_strings)
 
     return tables, None
@@ -229,8 +242,8 @@ def scrapeDataFromTable(locationName, table, tableHeader, writers, genSymbol):
 
         # Indicates encounter rate same at all times of day
         if len(cells) == 4 + numberGames:
-            location = ' '.join(list(cells[-3].stripped_strings))
-            csvRow.append(location)
+            method = ' '.join(list(cells[-3].stripped_strings))
+            csvRow.append(method)
             levels = ' '.join(list(cells[-2].stripped_strings))
             csvRow.append(levels)
 
@@ -242,11 +255,25 @@ def scrapeDataFromTable(locationName, table, tableHeader, writers, genSymbol):
             # Not Gen 2, so no times of day dependence
             else:
                 csvRow.append(rate)
-            writers[versionGroupCode].writerow(csvRow)
+
+            # Navel Rock, Gen 3
+            if versionGroupCode == 'FRLGE':
+                writers['FRLG'].writerow(
+                    [locationName, 'N/A', pokemonName, True, True, method, levels, rate])
+                writers['RSE'].writerow(
+                    [locationName, 'N/A', pokemonName, False, False, True, method, levels, rate])
+
+            # General case
+            else:
+                # E.g. Mining Museum page
+                if genSymbol == 'IV' and versionGroupCode == 'BDSP':
+                    continue
+
+                writers[versionGroupCode].writerow(csvRow)
         # Encounter rates depend on time of day
         else:
-            location = ' '.join(list(cells[-5].stripped_strings))
-            csvRow.append(location)
+            method = ' '.join(list(cells[-5].stripped_strings))
+            csvRow.append(method)
             levels = ' '.join(list(cells[-4].stripped_strings))
             csvRow.append(levels)
 

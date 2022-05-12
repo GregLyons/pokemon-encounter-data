@@ -1,11 +1,14 @@
-Version Group Code,Location
-GSC,Special
-GSC,Radio Tower
-GSC,Lighthouse
-GSC,Battle Tower
-GSC,Mahogany Town
-GSC,Dragon's Den
-GSC,Lav Radio Tower
-GSC,Victory Road
-GSC,Fast Ship
-GSC,Event
+Version Group Code,Location,Reason
+GSC,Special,No encounter section found
+GSC,Radio Tower,No encounter section found
+GSC,Lighthouse,No encounter section found
+GSC,Battle Tower,No encounter section found
+GSC,Mahogany Town,No encounter section found
+GSC,Underground,No tables found: Has Pokemon in other Gen
+GSC,Lavender Town,No tables found: Has Pokemon in other Gen
+GSC,Lav Radio Tower,No tables found: Has Pokemon in other Gen
+GSC,Saffron City,No tables found: Has Pokemon in other Gen
+GSC,Seafoam Islands,No tables found: None
+GSC,Route 23,No tables found: Has Pokemon in other Gen
+GSC,Fast Ship,No encounter section found
+GSC,Event,No encounter section found

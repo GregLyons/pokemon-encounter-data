@@ -1,34 +1,42 @@
-Version Group Code,Location
-RSE,Oldale Town
-RSE,Mauville City
-RSE,Mt. Chimney
-RSE,Battle Tower
-RSE,RS
-RSE,E
-RSE,Inside of Truck
-RSE,Secret Base
-FRLG,Ferry
-FRLG,Pokémon Center
-FRLG,S.S. Anne
-FRLG,Routes
-FRLG,Underground Path
-FRLG,Rocket Hideout
-FRLG,Silph Co.
-FRLG,Two Island
-FRLG,Three Island
-FRLG,Seven Island
-FRLG,Six Island
-FRLG,Sevii Isle 6
-FRLG,Sevii Isle 7
-FRLG,Sevii Isle 8
-FRLG,Sevii Isle 9
-FRLG,Sevii Isle 22
-FRLG,Rocket Warehouse
-FRLG,Dotted Hole
-FRLG,Three Isle Path
-FRLG,Tanoby Key
-FRLG,FRLG
-RSE,Trainer Hill
-RSE,gift egg
-RSE,in-game trade
-RSE,fateful encounter
+Version Group Code,Location,Reason
+RSE,Oldale Town,No encounter section found
+RSE,Fallarbor Town,No tables found: Has Pokemon in other Gen
+RSE,Verdanturf Town,No tables found: Has Pokemon in other Gen
+RSE,Mauville City,No encounter section found
+RSE,Mt. Chimney,No encounter section found
+RSE,Battle Tower,No encounter section found
+RSE,RS,No encounter section found
+RSE,E,No encounter section found
+RSE,Sealed Chamber,No tables found: Has Pokemon in other Gen
+RSE,Scorched Slab,No tables found: Has Pokemon in other Gen
+RSE,Inside of Truck,No encounter section found
+RSE,Secret Base,No encounter section found
+FRLG,Ferry,No encounter section found
+FRLG,Pewter City,No tables found: Has Pokemon in other Gen
+FRLG,Lavender Town,No tables found: Has Pokemon in other Gen
+FRLG,Indigo Plateau,No tables found: Has Pokemon in other Gen
+FRLG,Saffron City,No tables found: Has Pokemon in other Gen
+FRLG,Pokémon Center,No encounter section found
+FRLG,S.S. Anne,No encounter section found
+FRLG,Routes,No encounter section found
+FRLG,Underground Path,No encounter section found
+FRLG,Rocket Hideout,No encounter section found
+FRLG,Silph Co.,No encounter section found
+FRLG,Two Island,No encounter section found
+FRLG,Three Island,No encounter section found
+FRLG,Seven Island,No encounter section found
+FRLG,Six Island,No encounter section found
+FRLG,Sevii Isle 6,No encounter section found
+FRLG,Sevii Isle 7,No encounter section found
+FRLG,Sevii Isle 8,No encounter section found
+FRLG,Sevii Isle 9,No encounter section found
+FRLG,Sevii Isle 22,No encounter section found
+FRLG,Rocket Warehouse,No encounter section found
+FRLG,Dotted Hole,No encounter section found
+FRLG,Three Isle Path,No encounter section found
+FRLG,Tanoby Key,No encounter section found
+FRLG,FRLG,No encounter section found
+RSE,Trainer Hill,No encounter section found
+RSE,gift egg,No encounter section found
+RSE,in-game trade,No encounter section found
+RSE,fateful encounter,No encounter section found
