@@ -28,7 +28,7 @@ def makeEncounterCSV(findTable, writers, genSymbol):
                 continue
 
             # Otherwise, add encounter data
-            hasEncounterData = visitLocationLink(
+            hasEncounterData, reason = visitLocationLink(
                 locationLink, writers, genSymbol)
             visitedHrefs.add(locationLink['href'])
 
@@ -38,30 +38,32 @@ def makeEncounterCSV(findTable, writers, genSymbol):
 
                 # Gen 1, RBY only
                 if genSymbol == 'I':
-                    writers['None'].writerow(['RBY', locationLink.get_text()])
+                    writers['None'].writerow(
+                        ['RBY', locationLink.get_text(), reason])
                 # Gen 2, GSC only
                 elif genSymbol == 'II':
-                    writers['None'].writerow(['GSC', locationLink.get_text()])
+                    writers['None'].writerow(
+                        ['GSC', locationLink.get_text(), reason])
                 # Gen 3
                 elif genSymbol == 'III':
                     # FRLG
                     if locationIndex >= 87 and locationIndex <= 196:
                         writers['None'].writerow(
-                            ['FRLG', locationLink.get_text()])
+                            ['FRLG', locationLink.get_text(), reason])
                     # RSE
                     else:
                         writers['None'].writerow(
-                            ['RSE', locationLink.get_text()])
+                            ['RSE', locationLink.get_text(), reason])
                 # Gen 4
                 elif genSymbol == 'IV':
                     # FRLG
                     if (locationIndex >= 126 and locationIndex <= 234) or locationIndex in [2013, 2014]:
                         writers['None'].writerow(
-                            ['HGSS', locationLink.get_text()])
+                            ['HGSS', locationLink.get_text(), reason])
                     # RSE
                     else:
                         writers['None'].writerow(
-                            ['DPPt', locationLink.get_text()])
+                            ['DPPt', locationLink.get_text(), reason])
 
     return
 
@@ -78,10 +80,31 @@ def visitLocationLink(locationLink, writers, genSymbol):
             'https://bulbapedia.bulbagarden.net' + locationLink['href'], 0, 10)
     # E.g. non-Bulbapedia link
     except URLError:
-        print(locationName, 'BAD LINK!!!')
-        return False
+        return False, "Did not lead to valid Bulbapedia link"
+
     print(locationName)
 
+    encounterSection, headerLevel = findEncounterSection(locationPage)
+
+    # If still no encounter section found, leave
+    if not encounterSection:
+        return False, "No encounter section found"
+
+    tables, reason = findTables(encounterSection, genSymbol, headerLevel)
+
+    # No tables found
+    if len(tables) == 0:
+        return False, f"No tables found: {reason}"
+
+    # Tables found; iterate over them
+    for table, tableHeader in tables:
+        scrapeDataFromTable(locationName, table,
+                            tableHeader, writers, genSymbol)
+
+    return True, None
+
+
+def findEncounterSection(locationPage):
     # Find section of page with encounter data
     # Many pages have sections entitled "Pokémon" representing different things, but encounter data will be in sections with <h2> headings entitled "Pokémon", whereas the other sections may have "Pokémon" in a different heading level (e.g. <h5>).
     h2s = locationPage.find_all('h2')
@@ -94,46 +117,76 @@ def visitLocationLink(locationLink, writers, genSymbol):
         else:
             encounterSection = locationPage.find('span', id=f'Pok.C3.A9mon')
 
-    # If no encounter section found, leave
-    if encounterSection == None:
-        return False
+    # Assume encounter section starts with an h2
+    headerLevel = 2
 
-    tables = findTables(encounterSection, genSymbol)
+    # If no encounter section found, it may be an h3 if the page is split into a games section and an anime section
+    if not encounterSection:
+        # Check if there's a games section
+        gamesSection = locationPage.find('span', id=f'In_the_games')
 
-    for table in tables:
-        scrapeDataFromTable(locationName, table, writers, genSymbol)
+        # If not, leave
+        if not gamesSection:
+            return False, None
 
-    return True
+        # Otherwise, look in games section
+        encounterSection = gamesSection.find_next('span', id=f'Pok.C3.A9mon')
+
+        # Encounter section starts with an h3
+        headerLevel = 3
+
+    return encounterSection, headerLevel
 
 
-def findTables(encounterSection, genSymbol):
+def findTables(encounterSection, genSymbol, headerLevel):
     tables = []
 
     # Otherwise, find desired gen
     findGenSection = encounterSection.find_next(
         'span', id=f'Generation_{genSymbol}')
 
-    # If no table for desired gen, leave
-    if findGenSection == None:
-        return []
+    # E.g. Sea Route 20, 'Generation I' used as ID for preceding section that's not encounter-related
+    if not findGenSection:
+        findGenSection = encounterSection.find_next(
+            'span', id=f'Generation_{genSymbol}_2')
 
-    #
-    # endregion
-    #
+    # # If no table for desired gen, leave
+    # if findGenSection == None:
+    #     return [], 'No tables found for desired gen.'
 
-    #
-    # Add table data to .csv
-    # region
+    # Once we've found the section with the encounter data, there may be multiple tables (e.g. a table for each floor of Mt. Moon in Gen I). In this case, we iterate over the tables from the starting point (an 'h2' or an 'h3') until we reach the next section (another 'h2' or 'h3', which will be a sibling of the starting point).
+    if not findGenSection:
+        # If location exists in other gens and has encounter data, then that means there's no encounter data for this gen
+        for genSymbol in ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII']:
+            if encounterSection.find_next('span', id=f'Generation_{genSymbol}'):
+                return [], 'Has Pokemon in other Gen'
 
-    if findGenSection == None:
-        tables.append(encounterSection.find_next('table'))
+        # Otherwise, there is encounter data for this gen only, which is why there's no section for this particular gen
+        tableHeader = 'N/A'
+        for sibling in encounterSection.parent.next_siblings:
+            # Stop when next header tag of same level is reached
+            if sibling.name == encounterSection.parent.name:
+                break
+            elif sibling.name == 'table':
+                tables.append([sibling, tableHeader])
+            if sibling.name in ['h2', 'h3', 'h4']:
+                tableHeader = ' '.join(sibling.stripped_strings)
     else:
-        tables.append(findGenSection.find_next('table'))
+        tableHeader = 'N/A'
+        for sibling in findGenSection.parent.next_siblings:
+            # Stop when next header tag of same level is reached
+            if sibling.name == findGenSection.parent.name:
+                break
+            elif sibling.name == 'table':
+                tables.append([sibling, tableHeader])
+            # The heading preceding the table
+            if sibling.name in ['h2', 'h3', 'h4']:
+                tableHeader = ' '.join(sibling.stripped_strings)
 
-    return tables
+    return tables, None
 
 
-def scrapeDataFromTable(locationName, table, writers, genSymbol):
+def scrapeDataFromTable(locationName, table, tableHeader, writers, genSymbol):
 
     # Parse header row to get number of games being considered
     headerRow = table.find('tr')
@@ -157,7 +210,7 @@ def scrapeDataFromTable(locationName, table, writers, genSymbol):
         if len(cells) < 4 + numberGames:
             continue
 
-        csvRow = [locationName]
+        csvRow = [locationName, tableHeader]
 
         pokemonName = parseName(cells[0].get_text(
         ).strip('\n'))

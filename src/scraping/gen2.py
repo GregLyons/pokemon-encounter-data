@@ -11,10 +11,10 @@ def main():
 
     with open(fname, 'w', newline='', encoding='utf-8') as csvFile, open(fname_none, 'w', newline='', encoding='utf-8') as csvFile_none:
         writer = csv.writer(csvFile)
-        writer.writerow(['Location', 'Pokemon', 'G', 'S',
+        writer.writerow(['Location', 'Sub-location', 'Pokemon', 'G', 'S',
                         'C', 'Method', 'Levels', 'Morning Rate', 'Day Rate', 'Night Rate'])
         writer_none = csv.writer(csvFile_none)
-        writer_none.writerow(['Version Group Code', 'Location'])
+        writer_none.writerow(['Version Group Code', 'Location', 'Reason'])
 
         # Navigate to link
         bs = openLink(

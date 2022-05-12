@@ -82,6 +82,37 @@ Ever Grande City,luvdisc,True,True,True,Fishing Good Rod,10-30,20%
 Ever Grande City,corsola,True,True,True,Fishing Super Rod,30-35,15%
 Ever Grande City,wailmer,True,True,True,Fishing Super Rod,30-45,45%
 Ever Grande City,luvdisc,True,True,True,Fishing Super Rod,30-35,40%
+Route 101,poochyena,True,True,False,Grass,2-3,10%
+Route 101,poochyena,False,False,True,Grass,2-3,45%
+Route 101,zigzagoon,True,True,False,Grass,2-3,45%
+Route 101,zigzagoon,False,False,True,Grass,2-3,10%
+Route 101,wurmple,True,True,True,Grass,2-3,45%
+Route 101,treecko,True,True,True,Starter Pokémon,5,One
+Route 101,torchic,True,True,True,Starter Pokémon,5,One
+Route 101,mudkip,True,True,True,Starter Pokémon,5,One
+Route 101,poochyena,True,True,False,Only one,2,One
+Route 101,zigzagoon,False,False,True,Only one,2,One
+Route 102,poochyena,True,True,False,Grass,3-4,15%
+Route 102,poochyena,False,False,True,Grass,3-4,30%
+Route 102,zigzagoon,True,True,False,Grass,3-4,30%
+Route 102,zigzagoon,False,False,True,Grass,3-4,15%
+Route 102,wurmple,True,True,True,Grass,3-4,30%
+Route 102,lotad,False,True,True,Grass,3-4,20%
+Route 102,seedot,True,False,False,Grass,3-4,20%
+Route 102,seedot,False,False,True,Grass,3,1%
+Route 102,ralts,True,True,True,Grass,4,4%
+Route 102,surskit,True,True,False,Grass,3,1%
+Route 102,goldeen,False,False,True,Surfing,20-30,1%
+Route 102,marill,True,True,True,Surfing,5-35,99%
+Route 102,surskit,True,True,False,Surfing,20-30,1%
+Route 102,goldeen,True,True,True,Fishing Old Rod,5-10,30%
+Route 102,magikarp,True,True,True,Fishing Old Rod,5-10,70%
+Route 102,goldeen,True,True,True,Fishing Good Rod,10-30,20%
+Route 102,magikarp,True,True,True,Fishing Good Rod,10-30,60%
+Route 102,corphish,True,True,True,Fishing Good Rod,10-30,20%
+Route 102,corphish,True,True,True,Fishing Super Rod,20-45,100%
+Route 102,surskit,True,True,False,Swarm,3,50%
+Route 102,seedot,False,False,True,Swarm,3,50%
 Route 103,poochyena,True,True,False,Grass,2-4,30%
 Route 103,poochyena,False,False,True,Grass,2-4,60%
 Route 103,zigzagoon,True,True,False,Grass,2-4,60%
@@ -98,6 +129,63 @@ Route 103,magikarp,True,True,True,Fishing Good Rod,10-30,60%
 Route 103,wailmer,True,True,True,Fishing Good Rod,10-30,20%
 Route 103,sharpedo,True,True,True,Fishing Super Rod,30-35,40%
 Route 103,wailmer,True,True,True,Fishing Super Rod,25-45,60%
+Route 104,marill,False,False,True,Grass,4-5,20%
+Route 104,poochyena,False,False,True,Grass,4-5,40%
+Route 104,zigzagoon,True,True,False,Grass,4-5,50%
+Route 104,wurmple,True,True,False,Grass,4-5,30%
+Route 104,wurmple,False,False,True,Grass,4,20%
+Route 104,taillow,True,True,True,Grass,4-5,10%
+Route 104,wingull,True,True,True,Grass,3-5,10%
+Route 104,wingull,True,True,True,Surfing,10-30,95%
+Route 104,pelipper,True,True,True,Surfing,25-30,5%
+Route 104,magikarp,True,True,True,Fishing Old Rod,5-10,100%
+Route 104,magikarp,True,True,True,Fishing Good Rod,10-30,100%
+Route 104,magikarp,True,True,True,Fishing Super Rod,20-45,100%
+Route 105,tentacool,True,True,True,Surfing,5-35,60%
+Route 105,wingull,True,True,True,Surfing,10-30,35%
+Route 105,pelipper,True,True,True,Surfing,25-30,5%
+Route 105,tentacool,True,True,True,Fishing Old Rod,5-10,30%
+Route 105,magikarp,True,True,True,Fishing Old Rod,5-10,70%
+Route 105,tentacool,True,True,True,Fishing Good Rod,10-30,20%
+Route 105,magikarp,True,True,True,Fishing Good Rod,10-30,60%
+Route 105,wailmer,True,True,True,Fishing Good Rod,10-30,20%
+Route 105,wailmer,True,True,True,Fishing Super Rod,20-45,100%
+Route 106,tentacool,True,True,True,Surfing,5-35,60%
+Route 106,wingull,True,True,True,Surfing,10-30,35%
+Route 106,pelipper,True,True,True,Surfing,25-30,5%
+Route 106,tentacool,True,True,True,Fishing Old Rod,5-10,30%
+Route 106,magikarp,True,True,True,Fishing Old Rod,5-10,70%
+Route 106,tentacool,True,True,True,Fishing Good Rod,10-30,20%
+Route 106,magikarp,True,True,True,Fishing Good Rod,10-30,60%
+Route 106,wailmer,True,True,True,Fishing Good Rod,10-30,20%
+Route 106,wailmer,True,True,True,Fishing Super Rod,20-45,100%
+Route 107,tentacool,True,True,True,Surfing,5-35,60%
+Route 107,wingull,True,True,True,Surfing,10-30,35%
+Route 107,pelipper,True,True,True,Surfing,25-30,5%
+Route 107,tentacool,True,True,True,Fishing Old Rod,5-10,30%
+Route 107,magikarp,True,True,True,Fishing Old Rod,5-10,70%
+Route 107,tentacool,True,True,True,Fishing Good Rod,10-30,20%
+Route 107,magikarp,True,True,True,Fishing Good Rod,10-30,60%
+Route 107,wailmer,True,True,True,Fishing Good Rod,10-30,20%
+Route 107,wailmer,True,True,True,Fishing Super Rod,20-45,100%
+Route 108,tentacool,True,True,True,Surfing,5-35,60%
+Route 108,wingull,True,True,True,Surfing,10-30,35%
+Route 108,pelipper,True,True,True,Surfing,25-30,5%
+Route 108,tentacool,True,True,True,Fishing Old Rod,5-10,30%
+Route 108,magikarp,True,True,True,Fishing Old Rod,5-10,70%
+Route 108,tentacool,True,True,True,Fishing Good Rod,10-30,20%
+Route 108,magikarp,True,True,True,Fishing Good Rod,10-30,60%
+Route 108,wailmer,True,True,True,Fishing Good Rod,10-30,20%
+Route 108,wailmer,True,True,True,Fishing Super Rod,20-45,100%
+Route 109,tentacool,True,True,True,Surfing,5-35,60%
+Route 109,wingull,True,True,True,Surfing,10-30,35%
+Route 109,pelipper,True,True,True,Surfing,25-30,5%
+Route 109,tentacool,True,True,True,Fishing Old Rod,5-10,30%
+Route 109,magikarp,True,True,True,Fishing Old Rod,5-10,70%
+Route 109,tentacool,True,True,True,Fishing Good Rod,10-30,20%
+Route 109,magikarp,True,True,True,Fishing Good Rod,10-30,60%
+Route 109,wailmer,True,True,True,Fishing Good Rod,10-30,20%
+Route 109,wailmer,True,True,True,Fishing Super Rod,20-45,100%
 Route 110,oddish,True,True,True,Grass,13,10%
 Route 110,zigzagoon,True,True,False,Grass,12,20%
 Route 110,poochyena,False,False,True,Grass,12,20%
@@ -117,6 +205,22 @@ Route 110,tentacool,True,True,True,Fishing Good Rod,10-30,20%
 Route 110,magikarp,True,True,True,Fishing Good Rod,10-30,60%
 Route 110,wailmer,True,True,True,Fishing Good Rod,10-30,20%
 Route 110,wailmer,True,True,True,Fishing Super Rod,20-45,100%
+Route 111,sandshrew,True,True,True,Deep sand,19-21,35%
+Route 111,trapinch,True,True,True,Deep sand,19-21,35%
+Route 111,cacnea,True,True,False,Deep sand,"19, 21",20%
+Route 111,cacnea,False,False,True,Deep sand,"20, 22",6%
+Route 111,baltoy,True,True,False,Deep sand,"20, 22",10%
+Route 111,baltoy,False,False,True,Deep sand,19-21,24%
+Route 111,geodude,True,True,True,Rock Smash,5-20,100%
+Route 111,goldeen,False,False,True,Surfing,20-30,1%
+Route 111,marill,True,True,True,Surfing,5-35,99%
+Route 111,surskit,True,True,False,Surfing,20-30,1%
+Route 111,goldeen,True,True,True,Fishing Old Rod,5-10,30%
+Route 111,magikarp,True,True,True,Fishing Old Rod,5-10,70%
+Route 111,goldeen,True,True,True,Fishing Good Rod,10-30,20%
+Route 111,magikarp,True,True,True,Fishing Good Rod,10-30,60%
+Route 111,barboach,True,True,True,Fishing Good Rod,10-30,20%
+Route 111,barboach,True,True,True,Fishing Super Rod,20-45,100%
 Route 112,machop,True,True,False,Grass,14-16,25%
 Route 112,marill,False,False,True,Grass,14-16,25%
 Route 112,numel,True,True,True,Grass,14-16,75%
@@ -429,6 +533,14 @@ Safari Zone,doduo,True,True,True,Grass,25,10%
 Safari Zone,natu,True,True,True,Grass,25,10%
 Safari Zone,girafarig,True,True,True,Grass,"25, 27",20%
 Safari Zone,wobbuffet,True,True,True,Grass,"27, 29",10%
+Petalburg Woods,poochyena,False,False,True,Grass,5-6,30%
+Petalburg Woods,zigzagoon,True,True,False,Grass,5-6,30%
+Petalburg Woods,wurmple,True,True,True,Grass,5-6,25%
+Petalburg Woods,silcoon,True,True,True,Grass,5,10%
+Petalburg Woods,cascoon,True,True,True,Grass,5,10%
+Petalburg Woods,taillow,True,True,True,Grass,5-6,5%
+Petalburg Woods,shroomish,True,True,True,Grass,5-6,15%
+Petalburg Woods,slakoth,True,True,True,Grass,5-6,5%
 Rusturf Tunnel,whismur,True,True,True,Cave,5-8,100%
 New Mauville,magnemite,True,True,True,Entrance,22-26,50%
 New Mauville,voltorb,True,True,True,Entrance,22-26,50%
@@ -437,6 +549,18 @@ New Mauville,magneton,True,True,True,Basement,26,1%
 New Mauville,voltorb,True,True,True,Basement,22-26,49%
 New Mauville,electrode,True,True,True,Basement,26,1%
 New Mauville,voltorb,True,True,True,Fake item,25,Three
+Meteor Falls,zubat,True,True,True,Cave,14-20,80%
+Meteor Falls,lunatone,False,True,False,Cave,"14, 16, 18",20%
+Meteor Falls,solrock,True,False,True,Cave,"14, 16, 18",20%
+Meteor Falls,zubat,True,True,True,Surfing,5-35,90%
+Meteor Falls,solrock,True,False,True,Surfing,5-35,10%
+Meteor Falls,lunatone,False,True,False,Surfing,5-35,10%
+Meteor Falls,goldeen,True,True,True,Fishing Old Rod,5-10,30%
+Meteor Falls,magikarp,True,True,True,Fishing Old Rod,5-10,70%
+Meteor Falls,goldeen,True,True,True,Fishing Good Rod,10-30,20%
+Meteor Falls,magikarp,True,True,True,Fishing Good Rod,10-30,60%
+Meteor Falls,barboach,True,True,True,Fishing Good Rod,10-30,20%
+Meteor Falls,barboach,True,True,True,Fishing Super Rod,20-45,100%
 Mt. Pyre,shuppet,False,True,True,1F-3F,22-29,100%
 Mt. Pyre,duskull,True,False,False,1F-3F,22-29,100%
 Mt. Pyre,shuppet,True,False,False,4F-6F,"25, 27, 29",10%

@@ -12,13 +12,13 @@ def main():
 
     with open(fname_dppt, 'w', newline='', encoding='utf-8') as csvFile_rse, open(fname_hgss, 'w', newline='', encoding='utf-8') as csvFile_frlg, open(fname_none, 'w', newline='', encoding='utf-8') as csvFile_none:
         writer_dppt = csv.writer(csvFile_rse)
-        writer_dppt.writerow(['Location', 'Pokemon', 'D', 'P',
+        writer_dppt.writerow(['Location', 'Sub-location', 'Pokemon', 'D', 'P',
                              'Pt', 'Method', 'Levels', 'Morning Rate', 'Day Rate', 'Night Rate'])
         writer_hgss = csv.writer(csvFile_frlg)
         writer_hgss.writerow(
             ['Location', 'Pokemon', 'HG', 'SS', 'Method', 'Levels', 'Morning Rate', 'Day Rate', 'Night Rate'])
         writer_none = csv.writer(csvFile_none)
-        writer_none.writerow(['Version Group Code', 'Location'])
+        writer_none.writerow(['Version Group Code', 'Location', 'Reason'])
 
         # Navigate to link
         bs = openLink(

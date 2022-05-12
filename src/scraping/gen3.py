@@ -12,13 +12,13 @@ def main():
 
     with open(fname_rse, 'w', newline='', encoding='utf-8') as csvFile_rse, open(fname_frlg, 'w', newline='', encoding='utf-8') as csvFile_frlg, open(fname_none, 'w', newline='', encoding='utf-8') as csvFile_none:
         writer_rse = csv.writer(csvFile_rse)
-        writer_rse.writerow(['Location', 'Pokemon', 'R', 'S',
+        writer_rse.writerow(['Location', 'Sub-location', 'Pokemon', 'R', 'S',
                              'E', 'Method', 'Levels', 'Rate'])
         writer_frlg = csv.writer(csvFile_frlg)
         writer_frlg.writerow(
             ['Location', 'Pokemon', 'FR', 'LG', 'Method', 'Levels', 'Rate'])
         writer_none = csv.writer(csvFile_none)
-        writer_none.writerow(['Version Group Code', 'Location'])
+        writer_none.writerow(['Version Group Code', 'Location', 'Reason'])
 
         # Navigate to link
         bs = openLink(
