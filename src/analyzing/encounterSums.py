@@ -8,7 +8,8 @@ def checkRateSum(fname_read, fname_write, versionCodes, timeDependent=False):
         reader = csv.DictReader(readCSV)
         writer = csv.writer(writeCSV)
         if not timeDependent:
-            writer.writerow(['Location', 'Sub-location', 'Method', 'Sum'])
+            writer.writerow(['Version Code', 'Location',
+                            'Sub-location', 'Method', 'Sum'])
         else:
             writer.writerow(['Version Code', 'Location', 'Sub-location',
                             'Method', 'Morning Sum', 'Day Sum', 'Night Sum'])
