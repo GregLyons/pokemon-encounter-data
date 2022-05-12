@@ -26,9 +26,42 @@ def makeEncounterCSV(findTable, writers, genSymbol):
             # If link has been visited, move on
             if locationLink['href'] in visitedHrefs:
                 continue
+
             # Otherwise, add encounter data
-            visitLocationLink(locationLink, writers, genSymbol)
+            hasEncounterData = visitLocationLink(
+                locationLink, writers, genSymbol)
             visitedHrefs.add(locationLink['href'])
+
+            # Track locations with no encounter data
+            if not hasEncounterData:
+                locationIndex = int(cells[0].get_text())
+
+                # Gen 1, RBY only
+                if genSymbol == 'I':
+                    writers['None'].writerow(['RBY', locationLink.get_text()])
+                # Gen 2, GSC only
+                elif genSymbol == 'II':
+                    writers['None'].writerow(['GSC', locationLink.get_text()])
+                # Gen 3
+                elif genSymbol == 'III':
+                    # FRLG
+                    if locationIndex >= 87 and locationIndex <= 196:
+                        writers['None'].writerow(
+                            ['FRLG', locationLink.get_text()])
+                    # RSE
+                    else:
+                        writers['None'].writerow(
+                            ['RSE', locationLink.get_text()])
+                # Gen 4
+                elif genSymbol == 'IV':
+                    # FRLG
+                    if (locationIndex >= 126 and locationIndex <= 234) or locationIndex in [2013, 2014]:
+                        writers['None'].writerow(
+                            ['HGSS', locationLink.get_text()])
+                    # RSE
+                    else:
+                        writers['None'].writerow(
+                            ['DPPt', locationLink.get_text()])
 
     return
 
@@ -65,13 +98,24 @@ def visitLocationLink(locationLink, writers, genSymbol):
     if encounterSection == None:
         return False
 
+    tables = findTables(encounterSection, genSymbol)
+
+    for table in tables:
+        scrapeDataFromTable(locationName, table, writers, genSymbol)
+
+    return True
+
+
+def findTables(encounterSection, genSymbol):
+    tables = []
+
     # Otherwise, find desired gen
-    findTableSection = encounterSection.find_next(
+    findGenSection = encounterSection.find_next(
         'span', id=f'Generation_{genSymbol}')
 
     # If no table for desired gen, leave
-    if findTableSection == None:
-        return False
+    if findGenSection == None:
+        return []
 
     #
     # endregion
@@ -81,24 +125,24 @@ def visitLocationLink(locationLink, writers, genSymbol):
     # Add table data to .csv
     # region
 
-    findTable = None
-    if findTableSection == None:
-        findTable = encounterSection.find_next('table')
+    if findGenSection == None:
+        tables.append(encounterSection.find_next('table'))
     else:
-        findTable = findTableSection.find_next('table')
+        tables.append(findGenSection.find_next('table'))
 
-    # If no table for desired gen, leave
-    if findTable == None:
-        return
+    return tables
+
+
+def scrapeDataFromTable(locationName, table, writers, genSymbol):
 
     # Parse header row to get number of games being considered
-    headerRow = findTable.find('tr')
+    headerRow = table.find('tr')
     colSpan = 6
     for th in headerRow.findChildren(['th'], recursive=False):
         if 'Games' in th.get_text():
             colSpan = int(th['colspan'])
 
-    rows = findTable.find('tbody').findChildren('tr', recursive=False)[1:]
+    rows = table.find('tbody').findChildren('tr', recursive=False)[1:]
     for row in rows:
 
         cells = row.findChildren(['td', 'th'], recursive=False)
@@ -162,11 +206,7 @@ def visitLocationLink(locationLink, writers, genSymbol):
 
             writers[versionGroupCode].writerow(csvRow)
 
-    #
-    # endregion
-    #
-
-    return True
+    return
 
 
 def main():

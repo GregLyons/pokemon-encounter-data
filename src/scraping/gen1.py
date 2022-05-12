@@ -7,11 +7,14 @@ from utils import getDataPath, openLink, parseName
 def main():
     dataPath = getDataPath()
     fname = dataPath + 'encounters-rby.csv'
+    fname_none = dataPath + 'none-gen1.csv'
 
-    with open(fname, 'w', newline='', encoding='utf-8') as csvFile:
+    with open(fname, 'w', newline='', encoding='utf-8') as csvFile, open(fname_none, 'w', newline='', encoding='utf-8') as csvFile_none:
         writer = csv.writer(csvFile)
         writer.writerow(['Location', 'Pokemon', 'R', 'B',
                         'Y', 'Method', 'Levels', 'Rate'])
+        writer_none = csv.writer(csvFile_none)
+        writer_none.writerow(['Version Group Code', 'Location'])
 
         # Navigate to link
         bs = openLink(
@@ -23,7 +26,7 @@ def main():
         # Desired table (nested within an outer table)
         findTable = findSection.findNext('table').find('table')
 
-        makeEncounterCSV(findTable, {'RBY': writer}, 'I')
+        makeEncounterCSV(findTable, {'RBY': writer, 'None': writer_none}, 'I')
 
 
 if __name__ == '__main__':
