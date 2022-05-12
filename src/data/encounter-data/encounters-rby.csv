@@ -555,46 +555,46 @@ Vermilion Harbor,Harbor,shellder,True,True,False,Fishing Super Rod,15,50%
 Vermilion Harbor,Harbor,shellder,False,False,True,Fishing Super Rod,10,10%
 Vermilion Harbor,Harbor,krabby,True,True,False,Fishing Super Rod,15,50%
 Vermilion Harbor,Harbor,staryu,False,False,True,Fishing Super Rod,15,20%
-Victory Road,N/A,zubat,True,True,False,Cave,22,15%
-Victory Road,N/A,zubat,False,False,True,Cave,"39, 44",20%
-Victory Road,N/A,golbat,True,True,False,Cave,41,5%
-Victory Road,N/A,machop,True,True,False,Cave,24,25%
-Victory Road,N/A,machoke,True,True,False,Cave,42,4%
-Victory Road,N/A,geodude,True,True,False,Cave,26,15%
-Victory Road,N/A,geodude,False,False,True,Cave,"26, 31, 36, 41",65%
-Victory Road,N/A,graveler,True,True,False,Cave,41,5%
-Victory Road,N/A,graveler,False,False,True,Cave,"41, 47",5%
-Victory Road,N/A,onix,True,True,False,Cave,"36, 39, 42",30%
-Victory Road,N/A,onix,False,False,True,Cave,"43, 45",10%
-Victory Road,N/A,marowak,True,True,False,Cave,43,1%
-Victory Road,N/A,zubat,True,True,False,Cave,26,15%
-Victory Road,N/A,zubat,False,False,True,Cave,44,10%
-Victory Road,N/A,golbat,True,True,False,Cave,40,5%
-Victory Road,N/A,golbat,False,False,True,Cave,39,10%
-Victory Road,N/A,machop,True,True,False,Cave,22,25%
-Victory Road,N/A,machoke,True,True,False,Cave,41,5%
-Victory Road,N/A,machoke,False,False,True,Cave,"39, 42",5%
-Victory Road,N/A,geodude,True,True,False,Cave,24,15%
-Victory Road,N/A,geodude,False,False,True,Cave,"31, 36, 41",55%
-Victory Road,N/A,graveler,True,True,False,Cave,43,1%
-Victory Road,N/A,graveler,False,False,True,Cave,44,10%
-Victory Road,N/A,onix,True,True,False,Cave,"36, 39, 42",30%
-Victory Road,N/A,onix,False,False,True,Cave,"45, 47",10%
-Victory Road,N/A,marowak,True,True,False,Cave,40,4%
-Victory Road,N/A,moltres,True,True,True,Only one,50,One
-Victory Road,N/A,zubat,True,True,False,Cave,22,15%
-Victory Road,N/A,golbat,True,True,False,Cave,41,5%
-Victory Road,N/A,golbat,False,False,True,Cave,44,15%
-Victory Road,N/A,venomoth,True,True,False,Cave,40,10%
-Victory Road,N/A,machop,True,True,False,Cave,24,25%
-Victory Road,N/A,machoke,True,True,False,Cave,"42, 45",5%
-Victory Road,N/A,machoke,False,False,True,Cave,"42, 45",10%
-Victory Road,N/A,geodude,True,True,False,Cave,26,15%
-Victory Road,N/A,geodude,False,False,True,Cave,"36, 41, 46",50%
-Victory Road,N/A,graveler,True,True,False,Cave,43,5%
-Victory Road,N/A,graveler,False,False,True,Cave,"41, 47",15%
-Victory Road,N/A,onix,True,True,False,Cave,"42, 45",20%
-Victory Road,N/A,onix,False,False,True,Cave,49,10%
+Victory Road,1F,zubat,True,True,False,Cave,22,15%
+Victory Road,1F,zubat,False,False,True,Cave,"39, 44",20%
+Victory Road,1F,golbat,True,True,False,Cave,41,5%
+Victory Road,1F,machop,True,True,False,Cave,24,25%
+Victory Road,1F,machoke,True,True,False,Cave,42,4%
+Victory Road,1F,geodude,True,True,False,Cave,26,15%
+Victory Road,1F,geodude,False,False,True,Cave,"26, 31, 36, 41",65%
+Victory Road,1F,graveler,True,True,False,Cave,41,5%
+Victory Road,1F,graveler,False,False,True,Cave,"41, 47",5%
+Victory Road,1F,onix,True,True,False,Cave,"36, 39, 42",30%
+Victory Road,1F,onix,False,False,True,Cave,"43, 45",10%
+Victory Road,1F,marowak,True,True,False,Cave,43,1%
+Victory Road,2F,zubat,True,True,False,Cave,26,15%
+Victory Road,2F,zubat,False,False,True,Cave,44,10%
+Victory Road,2F,golbat,True,True,False,Cave,40,5%
+Victory Road,2F,golbat,False,False,True,Cave,39,10%
+Victory Road,2F,machop,True,True,False,Cave,22,25%
+Victory Road,2F,machoke,True,True,False,Cave,41,5%
+Victory Road,2F,machoke,False,False,True,Cave,"39, 42",5%
+Victory Road,2F,geodude,True,True,False,Cave,24,15%
+Victory Road,2F,geodude,False,False,True,Cave,"31, 36, 41",55%
+Victory Road,2F,graveler,True,True,False,Cave,43,1%
+Victory Road,2F,graveler,False,False,True,Cave,44,10%
+Victory Road,2F,onix,True,True,False,Cave,"36, 39, 42",30%
+Victory Road,2F,onix,False,False,True,Cave,"45, 47",10%
+Victory Road,2F,marowak,True,True,False,Cave,40,4%
+Victory Road,2F,moltres,True,True,True,Only one,50,One
+Victory Road,3F,zubat,True,True,False,Cave,22,15%
+Victory Road,3F,golbat,True,True,False,Cave,41,5%
+Victory Road,3F,golbat,False,False,True,Cave,44,15%
+Victory Road,3F,venomoth,True,True,False,Cave,40,10%
+Victory Road,3F,machop,True,True,False,Cave,24,25%
+Victory Road,3F,machoke,True,True,False,Cave,"42, 45",5%
+Victory Road,3F,machoke,False,False,True,Cave,"42, 45",10%
+Victory Road,3F,geodude,True,True,False,Cave,26,15%
+Victory Road,3F,geodude,False,False,True,Cave,"36, 41, 46",50%
+Victory Road,3F,graveler,True,True,False,Cave,43,5%
+Victory Road,3F,graveler,False,False,True,Cave,"41, 47",15%
+Victory Road,3F,onix,True,True,False,Cave,"42, 45",20%
+Victory Road,3F,onix,False,False,True,Cave,49,10%
 Celadon Mansion,N/A,eevee,True,True,True,Gift,25,One
 Pokémon Tower,N/A,gastly,True,True,False,3F,18-24,90%
 Pokémon Tower,N/A,gastly,False,False,True,3F,18-25,95%
@@ -933,73 +933,73 @@ Pokémon Lab,N/A,muk,False,False,True,Trade Kangaskhan,The same as the Traded Po
 Pokémon Lab,N/A,rhydon,False,False,True,Trade Golduck,The same as the Traded Pokémon,One
 Fighting Dojo,N/A,hitmonlee,True,True,True,Gift,30,One
 Fighting Dojo,N/A,hitmonchan,True,True,True,Gift,30,One
-Cerulean Cave,N/A,arbok,True,False,False,Cave,52,10%
-Cerulean Cave,N/A,raichu,True,True,False,Cave,53,4%
-Cerulean Cave,N/A,sandslash,False,True,True,Cave,52,10%
-Cerulean Cave,N/A,golbat,True,True,False,Cave,46,20%
-Cerulean Cave,N/A,golbat,False,False,True,Cave,"50, 55",40%
-Cerulean Cave,N/A,gloom,False,False,True,Cave,55,10%
-Cerulean Cave,N/A,parasect,True,True,False,Cave,52,5%
-Cerulean Cave,N/A,parasect,False,False,True,Cave,54,5%
-Cerulean Cave,N/A,venomoth,True,True,False,Cave,49,10%
-Cerulean Cave,N/A,venomoth,False,False,True,Cave,54,5%
-Cerulean Cave,N/A,kadabra,True,True,False,Cave,49,5%
-Cerulean Cave,N/A,weepinbell,False,False,True,Cave,55,10%
-Cerulean Cave,N/A,graveler,False,False,True,Cave,45,15%
-Cerulean Cave,N/A,magneton,True,True,False,Cave,46,15%
-Cerulean Cave,N/A,dodrio,True,True,False,Cave,49,10%
-Cerulean Cave,N/A,hypno,True,True,False,Cave,46,20%
-Cerulean Cave,N/A,ditto,True,True,False,Cave,53,1%
-Cerulean Cave,N/A,ditto,False,False,True,Cave,"55, 60",5%
-Cerulean Cave,N/A,magikarp,True,True,True,Fishing Old Rod,5,100%
-Cerulean Cave,N/A,poliwag,True,True,True,Fishing Good Rod,10,50%
-Cerulean Cave,N/A,goldeen,True,True,True,Fishing Good Rod,10,50%
-Cerulean Cave,N/A,slowbro,True,True,False,Fishing Super Rod,23,25%
-Cerulean Cave,N/A,kingler,True,True,False,Fishing Super Rod,23,25%
-Cerulean Cave,N/A,seadra,True,True,False,Fishing Super Rod,23,25%
-Cerulean Cave,N/A,goldeen,False,False,True,Fishing Super Rod,25,40%
-Cerulean Cave,N/A,seaking,True,True,False,Fishing Super Rod,23,25%
-Cerulean Cave,N/A,seaking,False,False,True,Fishing Super Rod,"35, 45, 55",60%
-Cerulean Cave,N/A,sandslash,False,False,True,Cave,56,10%
-Cerulean Cave,N/A,wigglytuff,True,True,False,Cave,54,5%
-Cerulean Cave,N/A,golbat,False,False,True,Cave,"52, 57",40%
-Cerulean Cave,N/A,gloom,False,False,True,Cave,58,5%
-Cerulean Cave,N/A,venomoth,True,True,False,Cave,51,15%
-Cerulean Cave,N/A,kadabra,True,True,False,Cave,51,15%
-Cerulean Cave,N/A,weepinbell,False,False,True,Cave,58,5%
-Cerulean Cave,N/A,graveler,False,False,True,Cave,50,15%
-Cerulean Cave,N/A,dodrio,True,True,False,Cave,51,25%
-Cerulean Cave,N/A,electrode,True,True,False,Cave,52,10%
-Cerulean Cave,N/A,marowak,True,True,False,Cave,52,10%
-Cerulean Cave,N/A,rhyhorn,False,False,True,Cave,50,10%
-Cerulean Cave,N/A,rhydon,True,True,False,Cave,52,10%
-Cerulean Cave,N/A,rhydon,False,False,True,Cave,"58, 60",5%
-Cerulean Cave,N/A,chansey,True,True,False,Cave,56,5%
-Cerulean Cave,N/A,ditto,True,True,False,Cave,"55, 60",5%
-Cerulean Cave,N/A,ditto,False,False,True,Cave,60,10%
-Cerulean Cave,N/A,arbok,True,False,False,Cave,57,5%
-Cerulean Cave,N/A,raichu,True,True,False,Cave,64,10%
-Cerulean Cave,N/A,sandslash,False,True,False,Cave,57,5%
-Cerulean Cave,N/A,golbat,False,False,True,Cave,"54, 59",40%
-Cerulean Cave,N/A,parasect,True,True,False,Cave,64,10%
-Cerulean Cave,N/A,graveler,False,False,True,Cave,55,15%
-Cerulean Cave,N/A,electrode,True,True,False,Cave,55,15%
-Cerulean Cave,N/A,marowak,True,True,False,Cave,55,15%
-Cerulean Cave,N/A,lickitung,False,False,True,Cave,"50, 55",5%
-Cerulean Cave,N/A,rhyhorn,False,False,True,Cave,52,10%
-Cerulean Cave,N/A,rhydon,True,True,False,Cave,55,25%
-Cerulean Cave,N/A,rhydon,False,False,True,Cave,62,10%
-Cerulean Cave,N/A,chansey,True,True,False,Cave,64,10%
-Cerulean Cave,N/A,chansey,False,False,True,Cave,56,5%
-Cerulean Cave,N/A,ditto,True,True,False,Cave,"63, 65, 67",10%
-Cerulean Cave,N/A,ditto,False,False,True,Cave,"60, 65",15%
-Cerulean Cave,N/A,magikarp,True,True,True,Fishing Old Rod,5,100%
-Cerulean Cave,N/A,poliwag,True,True,True,Fishing Good Rod,10,50%
-Cerulean Cave,N/A,goldeen,True,True,True,Fishing Good Rod,10,50%
-Cerulean Cave,N/A,slowbro,True,True,False,Fishing Super Rod,23,25%
-Cerulean Cave,N/A,kingler,True,True,False,Fishing Super Rod,23,25%
-Cerulean Cave,N/A,seadra,True,True,False,Fishing Super Rod,23,25%
-Cerulean Cave,N/A,goldeen,False,False,True,Fishing Super Rod,30,40%
-Cerulean Cave,N/A,seaking,True,True,False,Fishing Super Rod,23,25%
-Cerulean Cave,N/A,seaking,False,False,True,Fishing Super Rod,"40, 50, 60",60%
-Cerulean Cave,N/A,mewtwo,True,True,True,Only one,70,One
+Cerulean Cave,1F,arbok,True,False,False,Cave,52,10%
+Cerulean Cave,1F,raichu,True,True,False,Cave,53,4%
+Cerulean Cave,1F,sandslash,False,True,True,Cave,52,10%
+Cerulean Cave,1F,golbat,True,True,False,Cave,46,20%
+Cerulean Cave,1F,golbat,False,False,True,Cave,"50, 55",40%
+Cerulean Cave,1F,gloom,False,False,True,Cave,55,10%
+Cerulean Cave,1F,parasect,True,True,False,Cave,52,5%
+Cerulean Cave,1F,parasect,False,False,True,Cave,54,5%
+Cerulean Cave,1F,venomoth,True,True,False,Cave,49,10%
+Cerulean Cave,1F,venomoth,False,False,True,Cave,54,5%
+Cerulean Cave,1F,kadabra,True,True,False,Cave,49,5%
+Cerulean Cave,1F,weepinbell,False,False,True,Cave,55,10%
+Cerulean Cave,1F,graveler,False,False,True,Cave,45,15%
+Cerulean Cave,1F,magneton,True,True,False,Cave,46,15%
+Cerulean Cave,1F,dodrio,True,True,False,Cave,49,10%
+Cerulean Cave,1F,hypno,True,True,False,Cave,46,20%
+Cerulean Cave,1F,ditto,True,True,False,Cave,53,1%
+Cerulean Cave,1F,ditto,False,False,True,Cave,"55, 60",5%
+Cerulean Cave,1F,magikarp,True,True,True,Fishing Old Rod,5,100%
+Cerulean Cave,1F,poliwag,True,True,True,Fishing Good Rod,10,50%
+Cerulean Cave,1F,goldeen,True,True,True,Fishing Good Rod,10,50%
+Cerulean Cave,1F,slowbro,True,True,False,Fishing Super Rod,23,25%
+Cerulean Cave,1F,kingler,True,True,False,Fishing Super Rod,23,25%
+Cerulean Cave,1F,seadra,True,True,False,Fishing Super Rod,23,25%
+Cerulean Cave,1F,goldeen,False,False,True,Fishing Super Rod,25,40%
+Cerulean Cave,1F,seaking,True,True,False,Fishing Super Rod,23,25%
+Cerulean Cave,1F,seaking,False,False,True,Fishing Super Rod,"35, 45, 55",60%
+Cerulean Cave,2F,sandslash,False,False,True,Cave,56,10%
+Cerulean Cave,2F,wigglytuff,True,True,False,Cave,54,5%
+Cerulean Cave,2F,golbat,False,False,True,Cave,"52, 57",40%
+Cerulean Cave,2F,gloom,False,False,True,Cave,58,5%
+Cerulean Cave,2F,venomoth,True,True,False,Cave,51,15%
+Cerulean Cave,2F,kadabra,True,True,False,Cave,51,15%
+Cerulean Cave,2F,weepinbell,False,False,True,Cave,58,5%
+Cerulean Cave,2F,graveler,False,False,True,Cave,50,15%
+Cerulean Cave,2F,dodrio,True,True,False,Cave,51,25%
+Cerulean Cave,2F,electrode,True,True,False,Cave,52,10%
+Cerulean Cave,2F,marowak,True,True,False,Cave,52,10%
+Cerulean Cave,2F,rhyhorn,False,False,True,Cave,50,10%
+Cerulean Cave,2F,rhydon,True,True,False,Cave,52,10%
+Cerulean Cave,2F,rhydon,False,False,True,Cave,"58, 60",5%
+Cerulean Cave,2F,chansey,True,True,False,Cave,56,5%
+Cerulean Cave,2F,ditto,True,True,False,Cave,"55, 60",5%
+Cerulean Cave,2F,ditto,False,False,True,Cave,60,10%
+Cerulean Cave,B1F,arbok,True,False,False,Cave,57,5%
+Cerulean Cave,B1F,raichu,True,True,False,Cave,64,10%
+Cerulean Cave,B1F,sandslash,False,True,False,Cave,57,5%
+Cerulean Cave,B1F,golbat,False,False,True,Cave,"54, 59",40%
+Cerulean Cave,B1F,parasect,True,True,False,Cave,64,10%
+Cerulean Cave,B1F,graveler,False,False,True,Cave,55,15%
+Cerulean Cave,B1F,electrode,True,True,False,Cave,55,15%
+Cerulean Cave,B1F,marowak,True,True,False,Cave,55,15%
+Cerulean Cave,B1F,lickitung,False,False,True,Cave,"50, 55",5%
+Cerulean Cave,B1F,rhyhorn,False,False,True,Cave,52,10%
+Cerulean Cave,B1F,rhydon,True,True,False,Cave,55,25%
+Cerulean Cave,B1F,rhydon,False,False,True,Cave,62,10%
+Cerulean Cave,B1F,chansey,True,True,False,Cave,64,10%
+Cerulean Cave,B1F,chansey,False,False,True,Cave,56,5%
+Cerulean Cave,B1F,ditto,True,True,False,Cave,"63, 65, 67",10%
+Cerulean Cave,B1F,ditto,False,False,True,Cave,"60, 65",15%
+Cerulean Cave,B1F,magikarp,True,True,True,Fishing Old Rod,5,100%
+Cerulean Cave,B1F,poliwag,True,True,True,Fishing Good Rod,10,50%
+Cerulean Cave,B1F,goldeen,True,True,True,Fishing Good Rod,10,50%
+Cerulean Cave,B1F,slowbro,True,True,False,Fishing Super Rod,23,25%
+Cerulean Cave,B1F,kingler,True,True,False,Fishing Super Rod,23,25%
+Cerulean Cave,B1F,seadra,True,True,False,Fishing Super Rod,23,25%
+Cerulean Cave,B1F,goldeen,False,False,True,Fishing Super Rod,30,40%
+Cerulean Cave,B1F,seaking,True,True,False,Fishing Super Rod,23,25%
+Cerulean Cave,B1F,seaking,False,False,True,Fishing Super Rod,"40, 50, 60",60%
+Cerulean Cave,B1F,mewtwo,True,True,True,Only one,70,One

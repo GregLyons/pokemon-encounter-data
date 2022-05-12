@@ -1,11 +1,11 @@
 import csv
 
 from scraping import makeEncounterCSV
-from utils import getDataPath, openLink, parseName
+from utils import getEncounterDataPath, openLink
 
 
 def main():
-    dataPath = getDataPath()
+    dataPath = getEncounterDataPath()
     fname = dataPath + 'encounters-rby.csv'
     fname_none = dataPath + 'none-gen1.csv'
 

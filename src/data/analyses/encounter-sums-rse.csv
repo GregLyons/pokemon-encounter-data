@@ -1,0 +1,32 @@
+Location,Sub-location,Method,Sum
+E,Route 102,N/A,Swarm,50
+E,Route 114,N/A,Swarm,50
+E,Route 116,N/A,Swarm,50
+E,Route 117,N/A,Swarm,50
+E,Route 119,N/A,Fishing Old Rod,150
+E,Route 119,N/A,Fishing Good Rod,150
+E,Route 119,N/A,Fishing Super Rod,150
+E,Route 120,N/A,Swarm,50
+E,Meteor Falls,N/A,Cave,205
+E,Meteor Falls,N/A,Surfing,190
+E,Altering Cave,N/A,Cave,900
+R,Route 102,N/A,Swarm,50
+R,Route 114,N/A,Swarm,50
+R,Route 116,N/A,Swarm,50
+R,Route 117,N/A,Swarm,50
+R,Route 119,N/A,Fishing Old Rod,150
+R,Route 119,N/A,Fishing Good Rod,150
+R,Route 119,N/A,Fishing Super Rod,150
+R,Route 120,N/A,Swarm,50
+R,Meteor Falls,N/A,Cave,180
+R,Meteor Falls,N/A,Surfing,190
+S,Route 102,N/A,Swarm,50
+S,Route 114,N/A,Swarm,50
+S,Route 116,N/A,Swarm,50
+S,Route 117,N/A,Swarm,50
+S,Route 119,N/A,Fishing Old Rod,150
+S,Route 119,N/A,Fishing Good Rod,150
+S,Route 119,N/A,Fishing Super Rod,150
+S,Route 120,N/A,Swarm,50
+S,Meteor Falls,N/A,Cave,180
+S,Meteor Falls,N/A,Surfing,190

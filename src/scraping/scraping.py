@@ -1,7 +1,7 @@
 import csv
 from urllib.error import URLError
 
-from utils import getDataPath, openLink, parseName
+from utils import getEncounterDataPath, openLink, parseName
 
 
 def makeEncounterCSV(findTable, writers, genSymbol):
@@ -189,7 +189,7 @@ def findTables(encounterSection, genSymbol, headerLevel):
                 break
             elif sibling.name == 'table':
                 tables.append([sibling, tableHeader])
-            if sibling.name in ['h2', 'h3', 'h4']:
+            if sibling.name in ['h2', 'h3', 'h4', 'h5']:
                 tableHeader = ' '.join(sibling.stripped_strings)
     else:
         tableHeader = 'N/A'
@@ -200,7 +200,7 @@ def findTables(encounterSection, genSymbol, headerLevel):
             elif sibling.name == 'table':
                 tables.append([sibling, tableHeader])
             # The heading preceding the table
-            if sibling.name in ['h2', 'h3', 'h4']:
+            if sibling.name in ['h2', 'h3', 'h4', 'h5']:
                 # E.g. Kanto Safari Zone in Generation 3
                 siblingHeaderLevel = int(sibling.name[1])
                 if siblingHeaderLevel <= headerLevel:
@@ -311,7 +311,7 @@ def scrapeDataFromTable(locationName, table, tableHeader, writers, genSymbol):
 
 
 def main():
-    dataPath = getDataPath()
+    dataPath = getEncounterDataPath()
     makeEncounterCSV(dataPath + 'encounters.csv')
 
 
