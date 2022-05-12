@@ -86,8 +86,20 @@ def visitLocationLink(locationLink, writers, genSymbol):
 
     encounterSection, headerLevel = findEncounterSection(locationPage)
 
+    #
+    # Hard-code certain exceptions
+    # region
+
+    hardCodedException = False
+    if genSymbol == 'IV' and locationName == 'Contest Hall':
+        hardCodedException = True
+
+    #
+    # endregion
+    #
+
     # If still no encounter section found, leave
-    if not encounterSection:
+    if not encounterSection or hardCodedException:
         return False, "No encounter section found"
 
     tables, reason = findTables(encounterSection, genSymbol, headerLevel)
@@ -206,7 +218,12 @@ def scrapeDataFromTable(locationName, table, tableHeader, writers, genSymbol):
     colSpan = 6
     for th in headerRow.findChildren(['th'], recursive=False):
         if 'Games' in th.get_text():
-            colSpan = int(th['colspan'])
+            try:
+                colSpan = int(th['colspan'])
+            # Block-based encounter Safari Zone
+            except KeyError:
+                print('NO COL SPAN')
+                return
 
     rows = table.find('tbody').findChildren('tr', recursive=False)[1:]
     for row in rows:
@@ -217,7 +234,11 @@ def scrapeDataFromTable(locationName, table, tableHeader, writers, genSymbol):
         if len(cells) < 4:
             continue
 
-        numberGames = int(colSpan / int(cells[1]['colspan']))
+        try:
+            numberGames = int(colSpan / int(cells[1]['colspan']))
+        except KeyError:
+            print('NO COL SPAN')
+            return
 
         # Ignore rows which are headers for sections/don't have enough cells
         if len(cells) < 4 + numberGames:

@@ -1,2 +1,1 @@
-"In the games" h2, changes structure (e.g. Route 101 RSE)
-Floors of cave separate sections (e.g. Mt. Moon)
+Block-based encounter Safari Zone
